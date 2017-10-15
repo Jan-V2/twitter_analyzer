@@ -1,0 +1,362 @@
+{
+    "as_of": "2017-10-14T18:24:26Z",
+    "created_at": "2017-10-14T18:19:17Z",
+    "locations": [
+        {
+            "name": "Calgary",
+            "woeid": 8775
+        }
+    ],
+    "trends": [
+        {
+            "name": "#NBT2017",
+            "promoted_content": null,
+            "query": "%23NBT2017",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23NBT2017"
+        },
+        {
+            "name": "#FridayThe13th",
+            "promoted_content": null,
+            "query": "%23FridayThe13th",
+            "tweet_volume": 197966,
+            "url": "http://twitter.com/search?q=%23FridayThe13th"
+        },
+        {
+            "name": "#ISSOTL17",
+            "promoted_content": null,
+            "query": "%23ISSOTL17",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23ISSOTL17"
+        },
+        {
+            "name": "#MCW7",
+            "promoted_content": null,
+            "query": "%23MCW7",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23MCW7"
+        },
+        {
+            "name": "#RMWFF20",
+            "promoted_content": null,
+            "query": "%23RMWFF20",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23RMWFF20"
+        },
+        {
+            "name": "Mike Smith",
+            "promoted_content": null,
+            "query": "%22Mike+Smith%22",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%22Mike+Smith%22"
+        },
+        {
+            "name": "Tomas Plekanec",
+            "promoted_content": null,
+            "query": "%22Tomas+Plekanec%22",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%22Tomas+Plekanec%22"
+        },
+        {
+            "name": "Lazio",
+            "promoted_content": null,
+            "query": "Lazio",
+            "tweet_volume": 30473,
+            "url": "http://twitter.com/search?q=Lazio"
+        },
+        {
+            "name": "Chelsea",
+            "promoted_content": null,
+            "query": "Chelsea",
+            "tweet_volume": 164039,
+            "url": "http://twitter.com/search?q=Chelsea"
+        },
+        {
+            "name": "Man City",
+            "promoted_content": null,
+            "query": "%22Man+City%22",
+            "tweet_volume": 48876,
+            "url": "http://twitter.com/search?q=%22Man+City%22"
+        },
+        {
+            "name": "Palace",
+            "promoted_content": null,
+            "query": "Palace",
+            "tweet_volume": 122556,
+            "url": "http://twitter.com/search?q=Palace"
+        },
+        {
+            "name": "Ken Dryden",
+            "promoted_content": null,
+            "query": "%22Ken+Dryden%22",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%22Ken+Dryden%22"
+        },
+        {
+            "name": "Premier League",
+            "promoted_content": null,
+            "query": "%22Premier+League%22",
+            "tweet_volume": 80353,
+            "url": "http://twitter.com/search?q=%22Premier+League%22"
+        },
+        {
+            "name": "GAMEDAY",
+            "promoted_content": null,
+            "query": "GAMEDAY",
+            "tweet_volume": 45031,
+            "url": "http://twitter.com/search?q=GAMEDAY"
+        },
+        {
+            "name": "Liverpool",
+            "promoted_content": null,
+            "query": "Liverpool",
+            "tweet_volume": 269718,
+            "url": "http://twitter.com/search?q=Liverpool"
+        },
+        {
+            "name": "Afghanistan",
+            "promoted_content": null,
+            "query": "Afghanistan",
+            "tweet_volume": 21951,
+            "url": "http://twitter.com/search?q=Afghanistan"
+        },
+        {
+            "name": "#godinos",
+            "promoted_content": null,
+            "query": "%23godinos",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23godinos"
+        },
+        {
+            "name": "#rdvotes",
+            "promoted_content": null,
+            "query": "%23rdvotes",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23rdvotes"
+        },
+        {
+            "name": "#yycbe",
+            "promoted_content": null,
+            "query": "%23yycbe",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23yycbe"
+        },
+        {
+            "name": "#CanWomenSTEM150",
+            "promoted_content": null,
+            "query": "%23CanWomenSTEM150",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23CanWomenSTEM150"
+        },
+        {
+            "name": "#hacktheclassroom",
+            "promoted_content": null,
+            "query": "%23hacktheclassroom",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23hacktheclassroom"
+        },
+        {
+            "name": "#IMKona",
+            "promoted_content": null,
+            "query": "%23IMKona",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23IMKona"
+        },
+        {
+            "name": "#SaturdayMorning",
+            "promoted_content": null,
+            "query": "%23SaturdayMorning",
+            "tweet_volume": 36892,
+            "url": "http://twitter.com/search?q=%23SaturdayMorning"
+        },
+        {
+            "name": "#EdTechCamp17",
+            "promoted_content": null,
+            "query": "%23EdTechCamp17",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23EdTechCamp17"
+        },
+        {
+            "name": "#CNCOinTO",
+            "promoted_content": null,
+            "query": "%23CNCOinTO",
+            "tweet_volume": 10409,
+            "url": "http://twitter.com/search?q=%23CNCOinTO"
+        },
+        {
+            "name": "#spin4the6",
+            "promoted_content": null,
+            "query": "%23spin4the6",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23spin4the6"
+        },
+        {
+            "name": "#HowTrumpSolvesACrisis",
+            "promoted_content": null,
+            "query": "%23HowTrumpSolvesACrisis",
+            "tweet_volume": 26562,
+            "url": "http://twitter.com/search?q=%23HowTrumpSolvesACrisis"
+        },
+        {
+            "name": "#HotDocsPodcastFest",
+            "promoted_content": null,
+            "query": "%23HotDocsPodcastFest",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23HotDocsPodcastFest"
+        },
+        {
+            "name": "#NationalDessertDay",
+            "promoted_content": null,
+            "query": "%23NationalDessertDay",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23NationalDessertDay"
+        },
+        {
+            "name": "#ethwaterloo",
+            "promoted_content": null,
+            "query": "%23ethwaterloo",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23ethwaterloo"
+        },
+        {
+            "name": "#WomenIn5Words",
+            "promoted_content": null,
+            "query": "%23WomenIn5Words",
+            "tweet_volume": 27640,
+            "url": "http://twitter.com/search?q=%23WomenIn5Words"
+        },
+        {
+            "name": "#NASCAR",
+            "promoted_content": null,
+            "query": "%23NASCAR",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23NASCAR"
+        },
+        {
+            "name": "#TVLitCon17",
+            "promoted_content": null,
+            "query": "%23TVLitCon17",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23TVLitCon17"
+        },
+        {
+            "name": "#megafanford",
+            "promoted_content": null,
+            "query": "%23megafanford",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23megafanford"
+        },
+        {
+            "name": "#QueensHomecoming",
+            "promoted_content": null,
+            "query": "%23QueensHomecoming",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23QueensHomecoming"
+        },
+        {
+            "name": "#RUaw17",
+            "promoted_content": null,
+            "query": "%23RUaw17",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23RUaw17"
+        },
+        {
+            "name": "#Diwali",
+            "promoted_content": null,
+            "query": "%23Diwali",
+            "tweet_volume": 11622,
+            "url": "http://twitter.com/search?q=%23Diwali"
+        },
+        {
+            "name": "#JoshuaBoyle",
+            "promoted_content": null,
+            "query": "%23JoshuaBoyle",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23JoshuaBoyle"
+        },
+        {
+            "name": "#WomenBoycottTwitter",
+            "promoted_content": null,
+            "query": "%23WomenBoycottTwitter",
+            "tweet_volume": 59649,
+            "url": "http://twitter.com/search?q=%23WomenBoycottTwitter"
+        },
+        {
+            "name": "#WOCAffirmation",
+            "promoted_content": null,
+            "query": "%23WOCAffirmation",
+            "tweet_volume": 59041,
+            "url": "http://twitter.com/search?q=%23WOCAffirmation"
+        },
+        {
+            "name": "#SurviveAHorrorMovieIn5Words",
+            "promoted_content": null,
+            "query": "%23SurviveAHorrorMovieIn5Words",
+            "tweet_volume": 16863,
+            "url": "http://twitter.com/search?q=%23SurviveAHorrorMovieIn5Words"
+        },
+        {
+            "name": "#RNation",
+            "promoted_content": null,
+            "query": "%23RNation",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23RNation"
+        },
+        {
+            "name": "#LIVMUN",
+            "promoted_content": null,
+            "query": "%23LIVMUN",
+            "tweet_volume": 101437,
+            "url": "http://twitter.com/search?q=%23LIVMUN"
+        },
+        {
+            "name": "#ALCS",
+            "promoted_content": null,
+            "query": "%23ALCS",
+            "tweet_volume": 35414,
+            "url": "http://twitter.com/search?q=%23ALCS"
+        },
+        {
+            "name": "#MUFC",
+            "promoted_content": null,
+            "query": "%23MUFC",
+            "tweet_volume": 107437,
+            "url": "http://twitter.com/search?q=%23MUFC"
+        },
+        {
+            "name": "#Stampeders",
+            "promoted_content": null,
+            "query": "%23Stampeders",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23Stampeders"
+        },
+        {
+            "name": "#TSMWIN",
+            "promoted_content": null,
+            "query": "%23TSMWIN",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23TSMWIN"
+        },
+        {
+            "name": "#ICanBeAPhantom",
+            "promoted_content": null,
+            "query": "%23ICanBeAPhantom",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23ICanBeAPhantom"
+        },
+        {
+            "name": "#MakeAFilmASciFiFilm",
+            "promoted_content": null,
+            "query": "%23MakeAFilmASciFiFilm",
+            "tweet_volume": 12080,
+            "url": "http://twitter.com/search?q=%23MakeAFilmASciFiFilm"
+        },
+        {
+            "name": "#CSACI17",
+            "promoted_content": null,
+            "query": "%23CSACI17",
+            "tweet_volume": null,
+            "url": "http://twitter.com/search?q=%23CSACI17"
+        }
+    ]
+}
