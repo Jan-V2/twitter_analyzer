@@ -1,3 +1,5 @@
+from random import randrange
+
 import tweepy
 import time
 
@@ -67,10 +69,15 @@ class apis():
     def get_api(self):
         return self.api_array[self.current_index]
 
-    def cycle_and_wait(self):
+    def cycle_and_wait(self, exeption):
         from utils import log
-        log(self.thread_name + "cycling api and sleeping 10 secs")
-        time.sleep(10)
+
+        # extra secs are so that the threads,
+        # don't all wake at the same time and go over ratelimit per sec
+        extra_secs = randrange(10)
+        log(str(exeption))
+        log(self.thread_name + "cycling api and sleeping " + str(7+extra_secs) + " secs")
+        time.sleep(7 + extra_secs)
         if self.current_index < len(self.api_array) -1:
             self.current_index +=1
         else:

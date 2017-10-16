@@ -6,6 +6,8 @@ from pprint import pprint
 from twitter_api_keys import get_api_array
 import tweepy
 
+#todo make data and code differnt dirs so only the code syncs to github
+
 def do_trendscrape():
     # this list is just under 150 trends, so it can be downloaded in 2 15 min api cycles.
     #  '' is for the worldwide trends

@@ -1,7 +1,9 @@
 import multiprocessing
 import os
+import shutil
 import time
 from pprint import pprint
+from zipfile import ZipFile
 
 import simplejson
 import tweepy
@@ -14,11 +16,14 @@ import tarfile
 
 
 
-# todo implement automatic compression of files
+# todo for some reason it doesn't download all the files.
+# i think it's probably related to api cycling
+# todo add some sort of code that spreads the load evenly  across several apis
 def run_trendscrape(scraping_list, test):
     wait_in_secs = 0
     iters_per_compress = 0
-    trend_data_dir = ROOTDIR + dir_sep + 'scraped trends'# the dir where scraped trenddata is stored
+    trend_data_dir = dir_sep + 'scraped trends'# the subdir where scraped trenddata is stored
+    #compress_trend_data(trend_data_dir)
     if test:
         wait_in_secs = 15
         iters_per_compress = 2
@@ -29,31 +34,37 @@ def run_trendscrape(scraping_list, test):
     iters = 0
     while True:
         # has to be refreshed every ineration otherwise it overwrites itself
-        dump_dir = trend_data_dir + dir_sep + get_timestamp()
+        dump_dir = ROOTDIR + trend_data_dir + dir_sep + get_timestamp()
 
         trendscrapingloop(dump_dir, scraping_list, wait_in_secs)
         iters +=1
-        #if iters % iters_per_compress == 0:
-        #his    compress_trend_data(trend_data_dir)
+    #     if iters % iters_per_compress == 0:
+    #         compress_trend_data(trend_data_dir)
 
 
 def compress_trend_data(trend_data_dir):
-    # todo
+    log("compressing ")
+
     # gets a list of subdirs of the folder
-    subdirs = get_subdir_list(trend_data_dir)
+    subdirs = get_subdir_list(ROOTDIR + dir_sep + trend_data_dir)
 
     # puts the number of dirs in the archive + timestamp in the filename
     arch_name = str(len(subdirs)) + " dirs " + get_timestamp() + ".tar.gz"
 
-    # combines all the dirs into a tar and then compresses it into a tar.gz
-    arch = tarfile.open( arch_name, "w:gz")
-    for dir in subdirs:
-        arch.add(trend_data_dir + dir_sep + dir)
+    # combines all the dirs into a zip and then compresses it into a tar.gz
+    arch = tarfile.open(ROOTDIR + dir_sep + trend_data_dir + dir_sep + arch_name, "w:gz")
+    arch.add(ROOTDIR + dir_sep + trend_data_dir + dir_sep, arcname=arch_name)
     arch.close()
 
-    # verifies the archive? (maybe by uncompressing it)
+    log("compressed dirs into " + arch_name)
+
+    # todo verifies the archive? (maybe by uncompressing it)
     # deletes the old data folders
-    pass
+    #for folder in subdirs:
+    #    shutil.rmtree(ROOTDIR + dir_sep + trend_data_dir + dir_sep + folder)
+
+    log("deleted old folders")
+
 
 
 def trendscrapingloop(trend_data_dump_dir, scraping_list, wait_in_secs):
@@ -93,17 +104,19 @@ def download_and_save_trends(country_name, dump_dir, thread_id):
     # passing in '' will save golbal trends
 
     thread_name = 'scrapethread '+ str(thread_id) + ': '
-    log('fetching global trend list')
-    available_trends = api.trends_available()
-    # pprint(available_trends)
-
     apis = getapi(thread_name)
+
+    log('fetching global trend list')
+    available_trends = apis.get_api().trends_available()
+    # pprint(available_trends)
 
     country_trend_ids = []
 
     for item in available_trends:
         if item['country'] == country_name:
             country_trend_ids.append(item)
+
+
 
     if country_name != '':
         # creates a country directory if it doesn't already exist
@@ -132,12 +145,15 @@ def download_and_save_trends(country_name, dump_dir, thread_id):
                     log(thread_name + 'dumping json for ' + local_trend_json['locations'][0]['name'])
                     simplejson.dump(local_trend_json, outfile, indent=4, sort_keys=True)
 
-            except tweepy.RateLimitError:
-                apis.cycle_and_wait()
+            except Exception as e:
+                apis.cycle_and_wait(e)
 
             break
     log(thread_name + "done")
 
+
+def get_country_trends_ids():
+    pass
 
 # depricated
 api = api_array[0]# for depricated methods

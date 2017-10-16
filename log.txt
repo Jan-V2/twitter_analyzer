@@ -23366,3 +23366,887 @@ ingdom
 
 [2017-10-08_23-29-50] starting application
 [2017-10-08_23-29-50] closing application
+
+[2017-10-16_22-00-27] starting application
+[2017-10-16_22-00-27] launching scrapethead 0
+[2017-10-16_22-00-27] launching scrapethead 1
+[2017-10-16_22-00-27] launching scrapethead 2
+[2017-10-16_22-00-27] launching scrapethead 3
+[2017-10-16_22-00-27] launching scrapethead 4
+[2017-10-16_22-00-28] fetching global trend list
+[2017-10-16_22-00-28] fetching global trend list
+[2017-10-16_22-00-28] fetching global trend list
+[2017-10-16_22-00-28] fetching global trend list
+[2017-10-16_22-00-29] fetching global trend list
+[2017-10-16_22-00-29] scrapethread 4: fetching local trends for Canada
+[2017-10-16_22-00-29] scrapethread 3: fetching local trends for Germany
+[2017-10-16_22-00-29] scrapethread 1: fetching local trends for United States
+[2017-10-16_22-00-29] scrapethread 2: fetching local trends for United Kingdom
+[2017-10-16_22-00-29] scrapethread 0: fetching local trends for Worldwide
+[2017-10-16_22-00-29] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-00-29] scrapethread 3: cycling api and sleeping 10 secs
+[2017-10-16_22-00-29] scrapethread 1: cycling api and sleeping 10 secs
+[2017-10-16_22-00-29] scrapethread 2: cycling api and sleeping 10 secs
+[2017-10-16_22-00-29] scrapethread 0: cycling api and sleeping 10 secs
+[2017-10-16_22-00-39] scrapethread 0: done
+[2017-10-16_22-00-39] scrapethread 4: dumping json for Ottawa
+[2017-10-16_22-00-39] scrapethread 3: dumping json for Bremen
+[2017-10-16_22-00-39] scrapethread 2: dumping json for Blackpool
+[2017-10-16_22-00-39] scrapethread 1: dumping json for Atlanta
+[2017-10-16_22-00-40] scrapethread 4: dumping json for Quebec
+[2017-10-16_22-00-40] scrapethread 3: dumping json for Dortmund
+[2017-10-16_22-00-40] scrapethread 2: dumping json for Bournemouth
+[2017-10-16_22-00-40] scrapethread 1: dumping json for Austin
+[2017-10-16_22-00-40] scrapethread 4: dumping json for Montreal
+[2017-10-16_22-00-40] scrapethread 3: dumping json for Dresden
+[2017-10-16_22-00-40] scrapethread 2: dumping json for Brighton
+[2017-10-16_22-00-40] scrapethread 1: dumping json for Baltimore
+[2017-10-16_22-00-40] scrapethread 4: dumping json for Toronto
+[2017-10-16_22-00-40] scrapethread 2: dumping json for Bristol
+[2017-10-16_22-00-40] scrapethread 3: dumping json for Dusseldorf
+[2017-10-16_22-00-40] scrapethread 1: dumping json for Baton Rouge
+[2017-10-16_22-00-41] scrapethread 3: dumping json for Essen
+[2017-10-16_22-00-41] scrapethread 2: dumping json for Cardiff
+[2017-10-16_22-00-41] scrapethread 4: dumping json for Edmonton
+[2017-10-16_22-00-41] scrapethread 1: dumping json for Birmingham
+[2017-10-16_22-00-41] scrapethread 2: dumping json for Coventry
+[2017-10-16_22-00-41] scrapethread 4: dumping json for Calgary
+[2017-10-16_22-00-41] scrapethread 3: dumping json for Frankfurt
+[2017-10-16_22-00-41] scrapethread 1: dumping json for Boston
+[2017-10-16_22-00-41] launching scrapethead 4
+[2017-10-16_22-00-41] scrapethread 4: dumping json for Vancouver
+[2017-10-16_22-00-41] scrapethread 2: dumping json for Derby
+[2017-10-16_22-00-41] scrapethread 3: dumping json for Hamburg
+[2017-10-16_22-00-41] scrapethread 1: dumping json for Charlotte
+[2017-10-16_22-00-41] scrapethread 4: dumping json for Canada
+[2017-10-16_22-00-41] scrapethread 4: done
+[2017-10-16_22-00-41] scrapethread 2: dumping json for Edinburgh
+[2017-10-16_22-00-42] scrapethread 1: dumping json for Chicago
+[2017-10-16_22-00-42] fetching global trend list
+[2017-10-16_22-00-42] scrapethread 3: dumping json for Cologne
+[2017-10-16_22-00-42] scrapethread 2: dumping json for Glasgow
+[2017-10-16_22-00-42] scrapethread 1: dumping json for Cincinnati
+[2017-10-16_22-00-42] scrapethread 5: fetching local trends for Netherlands
+[2017-10-16_22-00-42] scrapethread 3: dumping json for Leipzig
+[2017-10-16_22-00-42] scrapethread 1: dumping json for Cleveland
+[2017-10-16_22-00-42] scrapethread 2: dumping json for Hull
+[2017-10-16_22-00-42] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-42] scrapethread 3: dumping json for Munich
+[2017-10-16_22-00-43] scrapethread 2: dumping json for Leeds
+[2017-10-16_22-00-43] scrapethread 1: dumping json for Colorado Springs
+[2017-10-16_22-00-43] scrapethread 3: dumping json for Stuttgart
+[2017-10-16_22-00-43] scrapethread 1: dumping json for Columbus
+[2017-10-16_22-00-43] launching scrapethead 4
+[2017-10-16_22-00-43] scrapethread 2: dumping json for Leicester
+[2017-10-16_22-00-43] scrapethread 3: dumping json for Germany
+[2017-10-16_22-00-43] scrapethread 3: done
+[2017-10-16_22-00-43] scrapethread 1: dumping json for Dallas-Ft. Worth
+[2017-10-16_22-00-43] scrapethread 2: dumping json for Liverpool
+[2017-10-16_22-00-43] scrapethread 2: dumping json for Manchester
+[2017-10-16_22-00-44] scrapethread 1: dumping json for Denver
+[2017-10-16_22-00-44] fetching global trend list
+[2017-10-16_22-00-44] scrapethread 2: dumping json for Middlesbrough
+[2017-10-16_22-00-44] scrapethread 1: dumping json for Detroit
+[2017-10-16_22-00-44] scrapethread 5: fetching local trends for Puerto Rico
+[2017-10-16_22-00-44] scrapethread 2: dumping json for Newcastle
+[2017-10-16_22-00-44] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-44] scrapethread 2: dumping json for Nottingham
+[2017-10-16_22-00-45] scrapethread 1: dumping json for El Paso
+[2017-10-16_22-00-45] scrapethread 2: dumping json for Plymouth
+[2017-10-16_22-00-45] launching scrapethead 4
+[2017-10-16_22-00-45] scrapethread 1: dumping json for Fresno
+[2017-10-16_22-00-45] scrapethread 2: dumping json for Portsmouth
+[2017-10-16_22-00-45] scrapethread 1: dumping json for Greensboro
+[2017-10-16_22-00-45] scrapethread 2: dumping json for Preston
+[2017-10-16_22-00-45] fetching global trend list
+[2017-10-16_22-00-46] scrapethread 1: dumping json for Harrisburg
+[2017-10-16_22-00-46] scrapethread 2: dumping json for Sheffield
+[2017-10-16_22-00-46] scrapethread 2: dumping json for Stoke-on-Trent
+[2017-10-16_22-00-46] scrapethread 1: dumping json for Honolulu
+[2017-10-16_22-00-46] scrapethread 5: fetching local trends for Australia
+[2017-10-16_22-00-46] scrapethread 2: dumping json for Swansea
+[2017-10-16_22-00-46] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-46] scrapethread 1: dumping json for Houston
+[2017-10-16_22-00-46] scrapethread 2: dumping json for London
+[2017-10-16_22-00-46] scrapethread 1: dumping json for Indianapolis
+[2017-10-16_22-00-47] scrapethread 2: dumping json for Belfast
+[2017-10-16_22-00-47] scrapethread 1: dumping json for Jackson
+[2017-10-16_22-00-47] scrapethread 2: dumping json for United Kingdom
+[2017-10-16_22-00-47] scrapethread 2: done
+[2017-10-16_22-00-47] scrapethread 1: dumping json for Jacksonville
+[2017-10-16_22-00-47] launching scrapethead 4
+[2017-10-16_22-00-47] scrapethread 1: dumping json for Kansas City
+[2017-10-16_22-00-47] fetching global trend list
+[2017-10-16_22-00-47] scrapethread 1: dumping json for Las Vegas
+[2017-10-16_22-00-48] scrapethread 1: dumping json for Long Beach
+[2017-10-16_22-00-48] scrapethread 5: fetching local trends for Belgium
+[2017-10-16_22-00-48] scrapethread 1: dumping json for Los Angeles
+[2017-10-16_22-00-48] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-48] scrapethread 1: dumping json for Louisville
+[2017-10-16_22-00-49] scrapethread 1: cycling api and sleeping 10 secs
+[2017-10-16_22-00-53] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-54] scrapethread 5: done
+[2017-10-16_22-00-55] launching scrapethead 4
+[2017-10-16_22-00-55] fetching global trend list
+[2017-10-16_22-00-56] scrapethread 5: fetching local trends for Malaysia
+[2017-10-16_22-00-56] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-56] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-00-58] scrapethread 5: done
+[2017-10-16_22-00-59] scrapethread 1: dumping json for Mesa
+[2017-10-16_22-00-59] launching scrapethead 4
+[2017-10-16_22-00-59] scrapethread 1: dumping json for Miami
+[2017-10-16_22-00-59] scrapethread 1: dumping json for Milwaukee
+[2017-10-16_22-00-59] fetching global trend list
+[2017-10-16_22-01-00] scrapethread 1: dumping json for Minneapolis
+[2017-10-16_22-01-00] scrapethread 5: fetching local trends for New Zealand
+[2017-10-16_22-01-00] scrapethread 1: dumping json for Nashville
+[2017-10-16_22-01-00] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-01-00] scrapethread 1: dumping json for New Haven
+[2017-10-16_22-01-01] scrapethread 1: dumping json for New Orleans
+[2017-10-16_22-01-01] scrapethread 1: dumping json for New York
+[2017-10-16_22-01-01] scrapethread 1: dumping json for Norfolk
+[2017-10-16_22-01-01] scrapethread 1: dumping json for Oklahoma City
+[2017-10-16_22-01-02] scrapethread 1: dumping json for Omaha
+[2017-10-16_22-01-02] scrapethread 1: dumping json for Orlando
+[2017-10-16_22-01-02] scrapethread 1: dumping json for Philadelphia
+[2017-10-16_22-01-03] scrapethread 1: dumping json for Phoenix
+[2017-10-16_22-01-03] scrapethread 1: dumping json for Pittsburgh
+[2017-10-16_22-01-03] scrapethread 5: dumping json for Rotterdam
+[2017-10-16_22-01-03] scrapethread 1: dumping json for Portland
+[2017-10-16_22-01-03] scrapethread 5: dumping json for Utrecht
+[2017-10-16_22-01-03] scrapethread 1: dumping json for Providence
+[2017-10-16_22-01-03] scrapethread 5: dumping json for Netherlands
+[2017-10-16_22-01-04] scrapethread 5: done
+[2017-10-16_22-01-04] scrapethread 1: dumping json for Raleigh
+[2017-10-16_22-01-04] scrapethread 1: dumping json for Richmond
+[2017-10-16_22-01-04] scrapethread 1: dumping json for Sacramento
+[2017-10-16_22-01-05] scrapethread 1: dumping json for St. Louis
+[2017-10-16_22-01-05] launching scrapethead 4
+[2017-10-16_22-01-05] threadscraping joining threads
+[2017-10-16_22-01-05] scrapethread 1: dumping json for Salt Lake City
+[2017-10-16_22-01-05] scrapethread 1: dumping json for San Antonio
+[2017-10-16_22-01-05] fetching global trend list
+[2017-10-16_22-01-06] scrapethread 1: dumping json for San Diego
+[2017-10-16_22-01-06] scrapethread 5: fetching local trends for Singapore
+[2017-10-16_22-01-06] scrapethread 1: dumping json for San Francisco
+[2017-10-16_22-01-06] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-01-06] scrapethread 1: dumping json for San Jose
+[2017-10-16_22-01-06] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-01-07] scrapethread 1: dumping json for Seattle
+[2017-10-16_22-01-07] scrapethread 5: dumping json for Brisbane
+[2017-10-16_22-01-07] scrapethread 1: dumping json for Tallahassee
+[2017-10-16_22-01-07] scrapethread 1: dumping json for Tampa
+[2017-10-16_22-01-07] scrapethread 5: dumping json for Canberra
+[2017-10-16_22-01-07] scrapethread 1: dumping json for Tucson
+[2017-10-16_22-01-07] scrapethread 5: dumping json for Darwin
+[2017-10-16_22-01-08] scrapethread 1: dumping json for Virginia Beach
+[2017-10-16_22-01-08] scrapethread 5: dumping json for Melbourne
+[2017-10-16_22-01-08] scrapethread 1: dumping json for Washington
+[2017-10-16_22-01-08] scrapethread 5: dumping json for Sydney
+[2017-10-16_22-01-08] scrapethread 1: dumping json for United States
+[2017-10-16_22-01-08] scrapethread 1: done
+[2017-10-16_22-01-08] scrapethread 5: dumping json for Australia
+[2017-10-16_22-01-08] scrapethread 5: done
+[2017-10-16_22-01-10] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-01-16] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-01-17] scrapethread 5: dumping json for Johor Bahru
+[2017-10-16_22-01-17] scrapethread 5: dumping json for Klang
+[2017-10-16_22-01-17] scrapethread 5: dumping json for Kuala Lumpur
+[2017-10-16_22-01-18] scrapethread 5: dumping json for Malaysia
+[2017-10-16_22-01-18] scrapethread 5: dumping json for Petaling
+[2017-10-16_22-01-18] scrapethread 5: dumping json for Hulu Langat
+[2017-10-16_22-01-18] scrapethread 5: done
+[2017-10-16_22-01-20] scrapethread 5: done
+[2017-10-16_22-01-26] scrapethread 5: done
+[2017-10-16_22-01-26] threads joined
+[2017-10-16_22-01-26] sleeping for 3541 seconds until next trendscrape
+
+[2017-10-16_22-02-58] starting application
+[2017-10-16_22-02-58] compressing 
+[2017-10-16_22-02-58] compressed dirs into 2 dirs [2017-10-16_22-02-58].tar.gz
+
+[2017-10-16_22-06-24] starting application
+[2017-10-16_22-06-24] compressing 
+[2017-10-16_22-06-24] compressed dirs into 2 dirs [2017-10-16_22-06-24].tar.gz
+[2017-10-16_22-06-24] deleted old folders
+[2017-10-16_22-06-24] closing application
+
+[2017-10-16_22-11-26] starting application
+[2017-10-16_22-11-26] compressing 
+[2017-10-16_22-11-26] compressed dirs into 1 dirs [2017-10-16_22-11-26].tar.gz
+[2017-10-16_22-11-26] deleted old folders
+[2017-10-16_22-11-26] closing application
+
+[2017-10-16_22-12-17] starting application
+[2017-10-16_22-12-17] compressing 
+[2017-10-16_22-12-17] compressed dirs into 2 dirs [2017-10-16_22-12-17].tar.gz
+[2017-10-16_22-12-17] deleted old folders
+[2017-10-16_22-12-17] closing application
+
+[2017-10-16_22-14-50] starting application
+[2017-10-16_22-14-50] launching scrapethead 0
+[2017-10-16_22-14-50] launching scrapethead 1
+[2017-10-16_22-14-50] launching scrapethead 2
+[2017-10-16_22-14-50] launching scrapethead 3
+[2017-10-16_22-14-50] launching scrapethead 4
+[2017-10-16_22-14-51] fetching global trend list
+[2017-10-16_22-14-51] fetching global trend list
+[2017-10-16_22-14-52] fetching global trend list
+[2017-10-16_22-14-52] fetching global trend list
+[2017-10-16_22-14-52] fetching global trend list
+[2017-10-16_22-14-52] scrapethread 0: fetching local trends for Worldwide
+[2017-10-16_22-14-52] scrapethread 3: fetching local trends for Germany
+[2017-10-16_22-14-52] scrapethread 1: fetching local trends for United States
+[2017-10-16_22-14-52] scrapethread 2: fetching local trends for United Kingdom
+[2017-10-16_22-14-52] scrapethread 4: fetching local trends for Canada
+[2017-10-16_22-14-52] scrapethread 0: dumping json for Worldwide
+[2017-10-16_22-14-52] scrapethread 0: done
+[2017-10-16_22-14-52] scrapethread 3: dumping json for Berlin
+[2017-10-16_22-14-53] scrapethread 1: dumping json for Albuquerque
+[2017-10-16_22-14-53] scrapethread 2: dumping json for Birmingham
+[2017-10-16_22-14-53] scrapethread 4: dumping json for Winnipeg
+[2017-10-16_22-14-53] scrapethread 3: dumping json for Bremen
+[2017-10-16_22-14-53] scrapethread 1: dumping json for Atlanta
+[2017-10-16_22-14-53] scrapethread 2: dumping json for Blackpool
+[2017-10-16_22-14-53] scrapethread 4: dumping json for Ottawa
+[2017-10-16_22-14-53] scrapethread 3: dumping json for Dortmund
+[2017-10-16_22-14-53] scrapethread 1: dumping json for Austin
+[2017-10-16_22-14-53] scrapethread 2: dumping json for Bournemouth
+[2017-10-16_22-14-53] scrapethread 4: dumping json for Quebec
+[2017-10-16_22-14-53] scrapethread 3: dumping json for Dresden
+[2017-10-16_22-14-53] scrapethread 1: cycling api and sleeping 10 secs
+[2017-10-16_22-14-53] scrapethread 2: cycling api and sleeping 10 secs
+[2017-10-16_22-14-54] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-14-54] scrapethread 3: cycling api and sleeping 10 secs
+[2017-10-16_22-14-54] launching scrapethead 4
+[2017-10-16_22-14-55] fetching global trend list
+[2017-10-16_22-14-55] scrapethread 5: fetching local trends for Netherlands
+[2017-10-16_22-14-55] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-04] scrapethread 1: cycling api and sleeping 10 secs
+[2017-10-16_22-15-04] scrapethread 2: cycling api and sleeping 10 secs
+[2017-10-16_22-15-04] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-15-04] scrapethread 3: cycling api and sleeping 10 secs
+[2017-10-16_22-15-06] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-14] scrapethread 1: dumping json for Birmingham
+[2017-10-16_22-15-14] scrapethread 2: dumping json for Cardiff
+[2017-10-16_22-15-14] scrapethread 4: dumping json for Edmonton
+[2017-10-16_22-15-14] scrapethread 1: dumping json for Boston
+[2017-10-16_22-15-14] scrapethread 3: dumping json for Frankfurt
+[2017-10-16_22-15-14] scrapethread 2: dumping json for Coventry
+[2017-10-16_22-15-14] scrapethread 4: dumping json for Calgary
+[2017-10-16_22-15-15] scrapethread 1: dumping json for Charlotte
+[2017-10-16_22-15-15] scrapethread 2: dumping json for Derby
+[2017-10-16_22-15-15] scrapethread 3: dumping json for Hamburg
+[2017-10-16_22-15-15] scrapethread 4: dumping json for Vancouver
+[2017-10-16_22-15-15] scrapethread 4: dumping json for Canada
+[2017-10-16_22-15-15] scrapethread 2: dumping json for Edinburgh
+[2017-10-16_22-15-15] scrapethread 4: done
+[2017-10-16_22-15-15] scrapethread 3: dumping json for Cologne
+[2017-10-16_22-15-15] scrapethread 1: dumping json for Chicago
+[2017-10-16_22-15-15] scrapethread 1: dumping json for Cincinnati
+[2017-10-16_22-15-15] scrapethread 2: dumping json for Glasgow
+[2017-10-16_22-15-15] scrapethread 3: dumping json for Leipzig
+[2017-10-16_22-15-16] scrapethread 2: dumping json for Hull
+[2017-10-16_22-15-16] scrapethread 3: dumping json for Munich
+[2017-10-16_22-15-16] scrapethread 1: dumping json for Cleveland
+[2017-10-16_22-15-16] scrapethread 2: dumping json for Leeds
+[2017-10-16_22-15-16] scrapethread 3: dumping json for Stuttgart
+[2017-10-16_22-15-16] scrapethread 1: dumping json for Colorado Springs
+[2017-10-16_22-15-16] scrapethread 5: dumping json for Rotterdam
+[2017-10-16_22-15-16] scrapethread 1: dumping json for Columbus
+[2017-10-16_22-15-16] scrapethread 3: dumping json for Germany
+[2017-10-16_22-15-16] scrapethread 3: done
+[2017-10-16_22-15-16] scrapethread 2: cycling api and sleeping 10 secs
+[2017-10-16_22-15-16] launching scrapethead 3
+[2017-10-16_22-15-16] launching scrapethead 4
+[2017-10-16_22-15-16] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-16] scrapethread 1: cycling api and sleeping 10 secs
+[2017-10-16_22-15-17] fetching global trend list
+[2017-10-16_22-15-17] fetching global trend list
+[2017-10-16_22-15-17] scrapethread 4: fetching local trends for Australia
+[2017-10-16_22-15-17] scrapethread 5: fetching local trends for Puerto Rico
+[2017-10-16_22-15-17] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-15-17] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-26] scrapethread 2: dumping json for Liverpool
+[2017-10-16_22-15-27] scrapethread 5: dumping json for Netherlands
+[2017-10-16_22-15-27] scrapethread 5: done
+[2017-10-16_22-15-27] scrapethread 1: dumping json for Denver
+[2017-10-16_22-15-27] scrapethread 2: dumping json for Manchester
+[2017-10-16_22-15-27] scrapethread 1: dumping json for Detroit
+[2017-10-16_22-15-27] scrapethread 2: dumping json for Middlesbrough
+[2017-10-16_22-15-27] scrapethread 1: dumping json for El Paso
+[2017-10-16_22-15-27] scrapethread 2: dumping json for Newcastle
+[2017-10-16_22-15-27] scrapethread 1: dumping json for Fresno
+[2017-10-16_22-15-27] scrapethread 2: dumping json for Nottingham
+[2017-10-16_22-15-27] scrapethread 5: done
+[2017-10-16_22-15-28] scrapethread 1: dumping json for Greensboro
+[2017-10-16_22-15-28] scrapethread 2: dumping json for Plymouth
+[2017-10-16_22-15-28] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-15-28] scrapethread 1: dumping json for Harrisburg
+[2017-10-16_22-15-28] scrapethread 2: dumping json for Portsmouth
+[2017-10-16_22-15-28] launching scrapethead 3
+[2017-10-16_22-15-28] launching scrapethead 4
+[2017-10-16_22-15-28] scrapethread 1: dumping json for Honolulu
+[2017-10-16_22-15-28] scrapethread 2: dumping json for Preston
+[2017-10-16_22-15-29] scrapethread 2: dumping json for Sheffield
+[2017-10-16_22-15-29] scrapethread 1: dumping json for Houston
+[2017-10-16_22-15-29] fetching global trend list
+[2017-10-16_22-15-29] fetching global trend list
+[2017-10-16_22-15-29] scrapethread 1: dumping json for Indianapolis
+[2017-10-16_22-15-29] scrapethread 2: dumping json for Stoke-on-Trent
+[2017-10-16_22-15-29] scrapethread 1: dumping json for Jackson
+[2017-10-16_22-15-29] scrapethread 2: dumping json for Swansea
+[2017-10-16_22-15-29] scrapethread 5: fetching local trends for Belgium
+[2017-10-16_22-15-29] scrapethread 4: fetching local trends for Malaysia
+[2017-10-16_22-15-30] scrapethread 1: dumping json for Jacksonville
+[2017-10-16_22-15-30] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-30] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-15-30] scrapethread 2: dumping json for London
+[2017-10-16_22-15-30] scrapethread 1: dumping json for Kansas City
+[2017-10-16_22-15-30] scrapethread 2: dumping json for Belfast
+[2017-10-16_22-15-30] scrapethread 1: dumping json for Las Vegas
+[2017-10-16_22-15-30] scrapethread 2: dumping json for United Kingdom
+[2017-10-16_22-15-30] scrapethread 2: done
+[2017-10-16_22-15-30] scrapethread 1: dumping json for Long Beach
+[2017-10-16_22-15-31] scrapethread 1: dumping json for Los Angeles
+[2017-10-16_22-15-31] scrapethread 1: dumping json for Louisville
+[2017-10-16_22-15-31] scrapethread 1: dumping json for Memphis
+[2017-10-16_22-15-31] scrapethread 1: dumping json for Mesa
+[2017-10-16_22-15-32] scrapethread 1: dumping json for Miami
+[2017-10-16_22-15-32] scrapethread 1: dumping json for Milwaukee
+[2017-10-16_22-15-32] launching scrapethead 4
+[2017-10-16_22-15-32] scrapethread 1: dumping json for Minneapolis
+[2017-10-16_22-15-33] scrapethread 1: dumping json for Nashville
+[2017-10-16_22-15-33] fetching global trend list
+[2017-10-16_22-15-33] scrapethread 1: dumping json for New Haven
+[2017-10-16_22-15-33] scrapethread 1: dumping json for New Orleans
+[2017-10-16_22-15-33] scrapethread 5: fetching local trends for New Zealand
+[2017-10-16_22-15-33] scrapethread 1: dumping json for New York
+[2017-10-16_22-15-34] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-34] scrapethread 1: dumping json for Norfolk
+[2017-10-16_22-15-34] scrapethread 1: dumping json for Oklahoma City
+[2017-10-16_22-15-34] scrapethread 1: dumping json for Omaha
+[2017-10-16_22-15-35] scrapethread 1: dumping json for Orlando
+[2017-10-16_22-15-35] scrapethread 1: dumping json for Philadelphia
+[2017-10-16_22-15-35] scrapethread 1: dumping json for Phoenix
+[2017-10-16_22-15-35] scrapethread 1: dumping json for Pittsburgh
+[2017-10-16_22-15-36] scrapethread 1: dumping json for Portland
+[2017-10-16_22-15-36] scrapethread 1: dumping json for Providence
+[2017-10-16_22-15-36] scrapethread 1: dumping json for Raleigh
+[2017-10-16_22-15-37] scrapethread 1: dumping json for Richmond
+[2017-10-16_22-15-37] scrapethread 1: dumping json for Sacramento
+[2017-10-16_22-15-37] scrapethread 1: dumping json for St. Louis
+[2017-10-16_22-15-37] scrapethread 1: dumping json for Salt Lake City
+[2017-10-16_22-15-38] scrapethread 1: dumping json for San Antonio
+[2017-10-16_22-15-38] scrapethread 4: cycling api and sleeping 10 secs
+[2017-10-16_22-15-38] scrapethread 1: dumping json for San Diego
+[2017-10-16_22-15-38] scrapethread 1: dumping json for San Francisco
+[2017-10-16_22-15-39] scrapethread 1: dumping json for San Jose
+[2017-10-16_22-15-39] scrapethread 1: dumping json for Seattle
+[2017-10-16_22-15-39] scrapethread 1: dumping json for Tallahassee
+[2017-10-16_22-15-39] scrapethread 1: dumping json for Tampa
+[2017-10-16_22-15-40] scrapethread 5: done
+[2017-10-16_22-15-40] scrapethread 1: dumping json for Tucson
+[2017-10-16_22-15-40] scrapethread 4: dumping json for Ipoh
+[2017-10-16_22-15-40] scrapethread 1: dumping json for Virginia Beach
+[2017-10-16_22-15-40] scrapethread 4: dumping json for Johor Bahru
+[2017-10-16_22-15-40] launching scrapethead 4
+[2017-10-16_22-15-40] threadscraping joining threads
+[2017-10-16_22-15-40] scrapethread 1: dumping json for Washington
+[2017-10-16_22-15-40] scrapethread 4: dumping json for Klang
+[2017-10-16_22-15-41] scrapethread 1: dumping json for United States
+[2017-10-16_22-15-41] scrapethread 1: done
+[2017-10-16_22-15-41] scrapethread 4: dumping json for Kuala Lumpur
+[2017-10-16_22-15-41] fetching global trend list
+[2017-10-16_22-15-41] scrapethread 4: dumping json for Malaysia
+[2017-10-16_22-15-41] scrapethread 5: fetching local trends for Singapore
+[2017-10-16_22-15-41] scrapethread 4: dumping json for Petaling
+[2017-10-16_22-15-41] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_22-15-42] scrapethread 4: dumping json for Hulu Langat
+[2017-10-16_22-15-42] scrapethread 4: done
+[2017-10-16_22-15-44] scrapethread 5: dumping json for New Zealand
+[2017-10-16_22-15-44] scrapethread 5: done
+[2017-10-16_22-15-48] scrapethread 4: dumping json for Canberra
+[2017-10-16_22-15-49] scrapethread 4: dumping json for Darwin
+[2017-10-16_22-15-49] scrapethread 4: dumping json for Melbourne
+[2017-10-16_22-15-49] scrapethread 4: dumping json for Sydney
+[2017-10-16_22-15-49] scrapethread 4: dumping json for Australia
+[2017-10-16_22-15-49] scrapethread 4: done
+[2017-10-16_22-15-52] scrapethread 5: dumping json for Singapore
+[2017-10-16_22-15-52] scrapethread 5: done
+[2017-10-16_22-15-52] threads joined
+[2017-10-16_22-15-52] sleeping for 3538 seconds until next trendscrape
+
+[2017-10-16_22-29-31] starting application
+[2017-10-16_22-29-31] compressing 
+
+[2017-10-16_22-29-58] starting application
+[2017-10-16_22-29-58] compressing 
+
+[2017-10-16_22-30-34] starting application
+[2017-10-16_22-30-34] compressing 
+
+[2017-10-16_22-31-41] starting application
+[2017-10-16_22-31-41] compressing 
+[2017-10-16_22-31-41] compressed dirs into 1 dirs [2017-10-16_22-31-41].tar.gz
+
+[2017-10-16_22-32-44] starting application
+[2017-10-16_22-32-44] compressing 
+[2017-10-16_22-32-44] compressed dirs into 1 dirs [2017-10-16_22-32-44].tar.gz
+[2017-10-16_22-32-44] deleted old folders
+[2017-10-16_22-32-44] closing application
+
+[2017-10-16_22-36-56] starting application
+[2017-10-16_22-36-56] compressing 
+[2017-10-16_22-36-57] compressed dirs into 2 dirs [2017-10-16_22-36-56].tar.gz
+[2017-10-16_22-36-57] deleted old folders
+[2017-10-16_22-36-57] closing application
+
+[2017-10-16_22-38-23] starting application
+[2017-10-16_22-38-23] compressing 
+[2017-10-16_22-38-24] compressed dirs into 2 dirs [2017-10-16_22-38-23].tar.gz
+[2017-10-16_22-38-24] deleted old folders
+[2017-10-16_22-38-24] closing application
+
+[2017-10-16_23-12-30] starting application
+[2017-10-16_23-12-30] launching scrapethead 0
+[2017-10-16_23-12-30] launching scrapethead 1
+[2017-10-16_23-12-30] launching scrapethead 2
+[2017-10-16_23-12-30] launching scrapethead 3
+[2017-10-16_23-12-30] launching scrapethead 4
+[2017-10-16_23-12-32] fetching global trend list
+[2017-10-16_23-12-32] fetching global trend list
+[2017-10-16_23-12-32] fetching global trend list
+[2017-10-16_23-12-32] fetching global trend list
+[2017-10-16_23-12-32] fetching global trend list
+[2017-10-16_23-12-32] scrapethread 1: fetching local trends for United States
+[2017-10-16_23-12-32] scrapethread 3: fetching local trends for Germany
+[2017-10-16_23-12-32] scrapethread 4: fetching local trends for Canada
+[2017-10-16_23-12-33] scrapethread 2: fetching local trends for United Kingdom
+[2017-10-16_23-12-33] scrapethread 0: fetching local trends for Worldwide
+[2017-10-16_23-12-33] scrapethread 1: dumping json for Albuquerque
+[2017-10-16_23-12-33] scrapethread 3: dumping json for Berlin
+[2017-10-16_23-12-33] scrapethread 2: dumping json for Birmingham
+[2017-10-16_23-12-33] scrapethread 4: dumping json for Winnipeg
+[2017-10-16_23-12-33] scrapethread 0: dumping json for Worldwide
+[2017-10-16_23-12-33] scrapethread 0: done
+[2017-10-16_23-12-33] scrapethread 1: dumping json for Atlanta
+
+[2017-10-16_23-12-33] scrapethread 3: dumping json for Bremen
+[2017-10-16_23-12-33] scrapethread 4: dumping json for Ottawa
+[2017-10-16_23-12-33] scrapethread 1: dumping json for Austin
+[2017-10-16_23-12-33] scrapethread 2: dumping json for Bournemouth
+[2017-10-16_23-12-33] scrapethread 3: dumping json for Dortmund
+[2017-10-16_23-12-33] scrapethread 4: dumping json for Quebec
+[2017-10-16_23-12-34] scrapethread 1: cycling api and sleeping 9 secs
+[2017-10-16_23-12-34] scrapethread 2: dumping json for Brighton
+[2017-10-16_23-12-34] scrapethread 3: cycling api and sleeping 10 secs
+[2017-10-16_23-12-34] scrapethread 4: cycling api and sleeping 12 secs
+[2017-10-16_23-12-34] scrapethread 2: cycling api and sleeping 12 secs
+[2017-10-16_23-12-34] launching scrapethead 4
+[2017-10-16_23-12-35] fetching global trend list
+[2017-10-16_23-12-35] scrapethread 5: fetching local trends for Netherlands
+[2017-10-16_23-12-36] scrapethread 5: cycling api and sleeping 8 secs
+[2017-10-16_23-12-43] scrapethread 1: dumping json for Baton Rouge
+[2017-10-16_23-12-43] scrapethread 1: dumping json for Birmingham
+[2017-10-16_23-12-43] scrapethread 1: dumping json for Boston
+[2017-10-16_23-12-44] scrapethread 1: dumping json for Charlotte
+[2017-10-16_23-12-44] scrapethread 3: dumping json for Dusseldorf
+[2017-10-16_23-12-44] scrapethread 5: dumping json for Amsterdam
+[2017-10-16_23-12-44] scrapethread 1: dumping json for Chicago
+[2017-10-16_23-12-44] scrapethread 3: dumping json for Essen
+[2017-10-16_23-12-44] scrapethread 5: dumping json for Rotterdam
+[2017-10-16_23-12-44] scrapethread 1: dumping json for Cincinnati
+[2017-10-16_23-12-45] scrapethread 3: dumping json for Frankfurt
+[2017-10-16_23-12-45] scrapethread 5: dumping json for Utrecht
+[2017-10-16_23-12-45] scrapethread 1: dumping json for Cleveland
+[2017-10-16_23-12-45] scrapethread 5: dumping json for Netherlands
+[2017-10-16_23-12-45] scrapethread 5: done
+[2017-10-16_23-12-45] scrapethread 3: dumping json for Hamburg
+[2017-10-16_23-12-45] scrapethread 1: dumping json for Colorado Springs
+[2017-10-16_23-12-45] scrapethread 3: dumping json for Cologne
+[2017-10-16_23-12-45] scrapethread 1: dumping json for Columbus
+[2017-10-16_23-12-45] scrapethread 3: dumping json for Leipzig
+[2017-10-16_23-12-46] scrapethread 1: dumping json for Dallas-Ft. Worth
+[2017-10-16_23-12-46] scrapethread 3: dumping json for Munich
+[2017-10-16_23-12-46] scrapethread 1: dumping json for Denver
+[2017-10-16_23-12-46] scrapethread 4: dumping json for Toronto
+[2017-10-16_23-12-46] scrapethread 3: dumping json for Stuttgart
+[2017-10-16_23-12-46] scrapethread 1: dumping json for Detroit
+[2017-10-16_23-12-46] scrapethread 2: dumping json for Cardiff
+[2017-10-16_23-12-46] scrapethread 4: dumping json for Edmonton
+[2017-10-16_23-12-46] scrapethread 3: dumping json for Germany
+[2017-10-16_23-12-46] scrapethread 3: done
+[2017-10-16_23-12-46] scrapethread 1: dumping json for El Paso
+[2017-10-16_23-12-46] launching scrapethead 3
+[2017-10-16_23-12-46] launching scrapethead 4
+[2017-10-16_23-12-46] scrapethread 2: dumping json for Coventry
+[2017-10-16_23-12-47] scrapethread 4: dumping json for Calgary
+[2017-10-16_23-12-47] scrapethread 1: dumping json for Fresno
+[2017-10-16_23-12-47] scrapethread 2: dumping json for Derby
+[2017-10-16_23-12-47] scrapethread 4: dumping json for Vancouver
+[2017-10-16_23-12-47] scrapethread 1: dumping json for Greensboro
+[2017-10-16_23-12-47] scrapethread 2: dumping json for Edinburgh
+[2017-10-16_23-12-47] fetching global trend list
+[2017-10-16_23-12-47] fetching global trend list
+[2017-10-16_23-12-47] scrapethread 4: dumping json for Canada
+[2017-10-16_23-12-47] scrapethread 4: done
+[2017-10-16_23-12-47] scrapethread 1: dumping json for Harrisburg
+[2017-10-16_23-12-47] scrapethread 2: dumping json for Glasgow
+[2017-10-16_23-12-48] scrapethread 1: dumping json for Honolulu
+[2017-10-16_23-12-48] scrapethread 5: fetching local trends for Puerto Rico
+[2017-10-16_23-12-48] scrapethread 4: fetching local trends for Australia
+[2017-10-16_23-12-48] scrapethread 2: dumping json for Hull
+[2017-10-16_23-12-48] scrapethread 5: cycling api and sleeping 7 secs
+[2017-10-16_23-12-48] scrapethread 4: cycling api and sleeping 14 secs
+[2017-10-16_23-12-48] scrapethread 1: dumping json for Houston
+[2017-10-16_23-12-48] scrapethread 2: dumping json for Leeds
+[2017-10-16_23-12-48] scrapethread 1: dumping json for Indianapolis
+[2017-10-16_23-12-48] scrapethread 2: dumping json for Leicester
+[2017-10-16_23-12-48] scrapethread 1: dumping json for Jackson
+[2017-10-16_23-12-48] launching scrapethead 4
+[2017-10-16_23-12-49] scrapethread 2: dumping json for Liverpool
+[2017-10-16_23-12-49] scrapethread 1: dumping json for Jacksonville
+[2017-10-16_23-12-49] scrapethread 2: dumping json for Manchester
+[2017-10-16_23-12-49] scrapethread 1: dumping json for Kansas City
+[2017-10-16_23-12-49] fetching global trend list
+[2017-10-16_23-12-49] scrapethread 2: dumping json for Middlesbrough
+[2017-10-16_23-12-49] scrapethread 1: dumping json for Las Vegas
+[2017-10-16_23-12-49] scrapethread 5: fetching local trends for Belgium
+[2017-10-16_23-12-49] scrapethread 2: dumping json for Newcastle
+[2017-10-16_23-12-50] scrapethread 1: dumping json for Long Beach
+[2017-10-16_23-12-50] scrapethread 5: cycling api and sleeping 16 secs
+[2017-10-16_23-12-50] scrapethread 2: dumping json for Nottingham
+[2017-10-16_23-12-50] scrapethread 1: dumping json for Los Angeles
+[2017-10-16_23-12-50] scrapethread 2: dumping json for Plymouth
+[2017-10-16_23-12-50] scrapethread 1: dumping json for Louisville
+[2017-10-16_23-12-50] scrapethread 2: dumping json for Portsmouth
+[2017-10-16_23-12-50] scrapethread 1: dumping json for Memphis
+[2017-10-16_23-12-51] scrapethread 2: dumping json for Preston
+[2017-10-16_23-12-51] scrapethread 1: dumping json for Mesa
+[2017-10-16_23-12-51] scrapethread 2: dumping json for Sheffield
+[2017-10-16_23-12-51] scrapethread 1: dumping json for Miami
+[2017-10-16_23-12-51] scrapethread 2: dumping json for Stoke-on-Trent
+[2017-10-16_23-12-51] scrapethread 1: dumping json for Milwaukee
+[2017-10-16_23-12-51] scrapethread 2: dumping json for Swansea
+[2017-10-16_23-12-51] scrapethread 1: dumping json for Minneapolis
+[2017-10-16_23-12-52] scrapethread 2: dumping json for London
+[2017-10-16_23-12-52] scrapethread 1: dumping json for Nashville
+[2017-10-16_23-12-52] scrapethread 2: dumping json for Belfast
+[2017-10-16_23-12-52] scrapethread 1: dumping json for New Haven
+[2017-10-16_23-12-52] scrapethread 2: dumping json for United Kingdom
+[2017-10-16_23-12-52] scrapethread 2: done
+[2017-10-16_23-12-52] launching scrapethead 4
+[2017-10-16_23-12-53] scrapethread 1: dumping json for New Orleans
+[2017-10-16_23-12-53] fetching global trend list
+[2017-10-16_23-12-53] scrapethread 1: dumping json for New York
+[2017-10-16_23-12-53] scrapethread 5: fetching local trends for Malaysia
+[2017-10-16_23-12-54] scrapethread 1: cycling api and sleeping 15 secs
+[2017-10-16_23-12-54] scrapethread 5: cycling api and sleeping 11 secs
+[2017-10-16_23-12-55] scrapethread 5: done
+[2017-10-16_23-12-56] launching scrapethead 4
+[2017-10-16_23-12-57] fetching global trend list
+[2017-10-16_23-12-57] scrapethread 5: fetching local trends for New Zealand
+[2017-10-16_23-12-58] scrapethread 5: cycling api and sleeping 11 secs
+[2017-10-16_23-13-02] scrapethread 4: cycling api and sleeping 13 secs
+[2017-10-16_23-13-05] scrapethread 5: cycling api and sleeping 13 secs
+[2017-10-16_23-13-06] scrapethread 5: done
+[2017-10-16_23-13-06] launching scrapethead 4
+[2017-10-16_23-13-06] threadscraping joining threads
+[2017-10-16_23-13-07] fetching global trend list
+[2017-10-16_23-13-07] scrapethread 5: fetching local trends for Singapore
+[2017-10-16_23-13-08] scrapethread 5: cycling api and sleeping 11 secs
+[2017-10-16_23-13-09] scrapethread 1: dumping json for Oklahoma City
+[2017-10-16_23-13-09] scrapethread 5: cycling api and sleeping 14 secs
+[2017-10-16_23-13-09] scrapethread 1: dumping json for Omaha
+[2017-10-16_23-13-09] scrapethread 1: dumping json for Orlando
+[2017-10-16_23-13-10] scrapethread 1: dumping json for Philadelphia
+[2017-10-16_23-13-10] scrapethread 1: dumping json for Phoenix
+[2017-10-16_23-13-10] scrapethread 1: dumping json for Pittsburgh
+[2017-10-16_23-13-11] scrapethread 1: dumping json for Portland
+[2017-10-16_23-13-11] scrapethread 1: dumping json for Providence
+[2017-10-16_23-13-11] scrapethread 1: dumping json for Raleigh
+[2017-10-16_23-13-11] scrapethread 1: dumping json for Richmond
+[2017-10-16_23-13-12] scrapethread 1: dumping json for Sacramento
+[2017-10-16_23-13-12] scrapethread 1: dumping json for St. Louis
+[2017-10-16_23-13-12] scrapethread 1: dumping json for Salt Lake City
+[2017-10-16_23-13-13] scrapethread 1: dumping json for San Antonio
+[2017-10-16_23-13-13] scrapethread 1: dumping json for San Diego
+[2017-10-16_23-13-13] scrapethread 1: dumping json for San Francisco
+[2017-10-16_23-13-13] scrapethread 1: dumping json for San Jose
+[2017-10-16_23-13-14] scrapethread 1: dumping json for Seattle
+[2017-10-16_23-13-14] scrapethread 1: dumping json for Tallahassee
+[2017-10-16_23-13-14] scrapethread 1: dumping json for Tampa
+[2017-10-16_23-13-15] scrapethread 1: dumping json for Tucson
+[2017-10-16_23-13-15] scrapethread 1: dumping json for Virginia Beach
+[2017-10-16_23-13-15] scrapethread 1: dumping json for Washington
+[2017-10-16_23-13-15] scrapethread 4: dumping json for Brisbane
+[2017-10-16_23-13-16] scrapethread 1: dumping json for United States
+[2017-10-16_23-13-16] scrapethread 1: done
+[2017-10-16_23-13-16] scrapethread 4: dumping json for Canberra
+[2017-10-16_23-13-16] scrapethread 4: dumping json for Darwin
+[2017-10-16_23-13-16] scrapethread 4: dumping json for Melbourne
+[2017-10-16_23-13-17] scrapethread 4: dumping json for Sydney
+[2017-10-16_23-13-17] scrapethread 4: dumping json for Australia
+[2017-10-16_23-13-17] scrapethread 4: done
+[2017-10-16_23-13-18] scrapethread 5: dumping json for Johor Bahru
+[2017-10-16_23-13-19] scrapethread 5: dumping json for Klang
+[2017-10-16_23-13-19] scrapethread 5: dumping json for Kuala Lumpur
+[2017-10-16_23-13-19] scrapethread 5: cycling api and sleeping 7 secs
+[2017-10-16_23-13-19] scrapethread 5: dumping json for Malaysia
+[2017-10-16_23-13-19] scrapethread 5: dumping json for Petaling
+[2017-10-16_23-13-20] scrapethread 5: dumping json for Hulu Langat
+[2017-10-16_23-13-20] scrapethread 5: done
+
+[2017-10-16_23-16-34] starting application
+[2017-10-16_23-16-34] launching scrapethead 0
+[2017-10-16_23-16-34] launching scrapethead 1
+[2017-10-16_23-16-34] launching scrapethead 2
+[2017-10-16_23-16-34] launching scrapethead 3
+[2017-10-16_23-16-34] launching scrapethead 4
+[2017-10-16_23-16-35] fetching global trend list
+[2017-10-16_23-16-35] fetching global trend list
+[2017-10-16_23-16-36] fetching global trend list
+[2017-10-16_23-16-36] fetching global trend list
+[2017-10-16_23-16-36] fetching global trend list
+[2017-10-16_23-16-36] scrapethread 2: fetching local trends for United Kingdom
+[2017-10-16_23-16-36] scrapethread 3: fetching local trends for Germany
+[2017-10-16_23-16-36] scrapethread 1: fetching local trends for United States
+[2017-10-16_23-16-36] scrapethread 0: fetching local trends for Worldwide
+[2017-10-16_23-16-36] scrapethread 4: fetching local trends for Canada
+[2017-10-16_23-16-38] launching scrapethead 0
+[2017-10-16_23-16-38] launching scrapethead 1
+[2017-10-16_23-16-38] launching scrapethead 2
+[2017-10-16_23-16-38] launching scrapethead 3
+[2017-10-16_23-16-38] launching scrapethead 4
+[2017-10-16_23-16-39] fetching global trend list
+[2017-10-16_23-16-39] fetching global trend list
+[2017-10-16_23-16-40] fetching global trend list
+[2017-10-16_23-16-40] fetching global trend list
+[2017-10-16_23-16-40] fetching global trend list
+[2017-10-16_23-16-40] scrapethread 3: fetching local trends for Belgium
+[2017-10-16_23-16-40] scrapethread 2: fetching local trends for Australia
+[2017-10-16_23-16-40] scrapethread 1: fetching local trends for Puerto Rico
+[2017-10-16_23-16-40] scrapethread 4: fetching local trends for Malaysia
+[2017-10-16_23-16-40] scrapethread 5: fetching local trends for Netherlands
+
+[2017-10-16_23-17-06] starting application
+[2017-10-16_23-17-06] launching scrapethead 0
+[2017-10-16_23-17-06] launching scrapethead 1
+[2017-10-16_23-17-06] launching scrapethead 2
+[2017-10-16_23-17-06] launching scrapethead 3
+[2017-10-16_23-17-06] launching scrapethead 4
+[2017-10-16_23-17-07] fetching global trend list
+[2017-10-16_23-17-07] fetching global trend list
+[2017-10-16_23-17-07] fetching global trend list
+[2017-10-16_23-17-07] fetching global trend list
+[2017-10-16_23-17-08] fetching global trend list
+[2017-10-16_23-17-08] scrapethread 3: fetching local trends for Germany
+[2017-10-16_23-17-08] scrapethread 1: fetching local trends for United States
+[2017-10-16_23-17-08] scrapethread 4: fetching local trends for Canada
+[2017-10-16_23-17-08] scrapethread 0: fetching local trends for Worldwide
+[2017-10-16_23-17-08] scrapethread 2: fetching local trends for United Kingdom
+[2017-10-16_23-17-08] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-08] scrapethread 1: cycling api and sleeping 9 secs
+[2017-10-16_23-17-08] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-08] scrapethread 3: cycling api and sleeping 12 secs
+[2017-10-16_23-17-08] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-08] scrapethread 4: cycling api and sleeping 8 secs
+[2017-10-16_23-17-08] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-08] scrapethread 0: cycling api and sleeping 12 secs
+[2017-10-16_23-17-08] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-08] scrapethread 2: cycling api and sleeping 13 secs
+[2017-10-16_23-17-16] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-16] scrapethread 4: cycling api and sleeping 7 secs
+[2017-10-16_23-17-17] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-17] scrapethread 1: cycling api and sleeping 15 secs
+[2017-10-16_23-17-20] scrapethread 0: done
+[2017-10-16_23-17-20] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-20] scrapethread 3: cycling api and sleeping 8 secs
+[2017-10-16_23-17-22] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-22] scrapethread 2: cycling api and sleeping 8 secs
+[2017-10-16_23-17-22] launching scrapethead 4
+[2017-10-16_23-17-22] fetching global trend list
+[2017-10-16_23-17-23] scrapethread 5: fetching local trends for Netherlands
+[2017-10-16_23-17-23] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-23] scrapethread 5: cycling api and sleeping 8 secs
+[2017-10-16_23-17-24] scrapethread 4: dumping json for Quebec
+[2017-10-16_23-17-24] scrapethread 4: dumping json for Montreal
+[2017-10-16_23-17-24] scrapethread 4: dumping json for Toronto
+[2017-10-16_23-17-25] scrapethread 4: dumping json for Edmonton
+[2017-10-16_23-17-25] scrapethread 4: dumping json for Calgary
+[2017-10-16_23-17-25] scrapethread 4: dumping json for Vancouver
+[2017-10-16_23-17-25] scrapethread 4: dumping json for Canada
+[2017-10-16_23-17-26] scrapethread 4: done
+[2017-10-16_23-17-26] launching scrapethead 4
+[2017-10-16_23-17-26] fetching global trend list
+[2017-10-16_23-17-27] scrapethread 5: fetching local trends for Puerto Rico
+[2017-10-16_23-17-27] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-27] scrapethread 5: cycling api and sleeping 15 secs
+[2017-10-16_23-17-29] scrapethread 3: dumping json for Dortmund
+[2017-10-16_23-17-29] scrapethread 3: dumping json for Dresden
+[2017-10-16_23-17-29] scrapethread 3: dumping json for Dusseldorf
+[2017-10-16_23-17-30] scrapethread 3: dumping json for Essen
+[2017-10-16_23-17-30] scrapethread 2: dumping json for Bournemouth
+[2017-10-16_23-17-30] scrapethread 3: dumping json for Frankfurt
+[2017-10-16_23-17-30] scrapethread 2: dumping json for Brighton
+[2017-10-16_23-17-30] scrapethread 3: dumping json for Hamburg
+[2017-10-16_23-17-30] scrapethread 2: dumping json for Bristol
+[2017-10-16_23-17-30] scrapethread 3: dumping json for Cologne
+[2017-10-16_23-17-31] scrapethread 2: dumping json for Cardiff
+[2017-10-16_23-17-31] scrapethread 3: dumping json for Leipzig
+[2017-10-16_23-17-31] scrapethread 2: dumping json for Coventry
+[2017-10-16_23-17-31] scrapethread 3: dumping json for Munich
+[2017-10-16_23-17-31] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-31] scrapethread 5: cycling api and sleeping 11 secs
+[2017-10-16_23-17-31] scrapethread 2: dumping json for Derby
+[2017-10-16_23-17-31] scrapethread 3: dumping json for Stuttgart
+[2017-10-16_23-17-31] scrapethread 2: dumping json for Edinburgh
+[2017-10-16_23-17-32] scrapethread 3: dumping json for Germany
+[2017-10-16_23-17-32] scrapethread 3: done
+[2017-10-16_23-17-32] launching scrapethead 4
+[2017-10-16_23-17-32] scrapethread 2: dumping json for Glasgow
+[2017-10-16_23-17-32] scrapethread 2: dumping json for Hull
+[2017-10-16_23-17-32] fetching global trend list
+[2017-10-16_23-17-32] scrapethread 2: dumping json for Leeds
+[2017-10-16_23-17-33] scrapethread 5: fetching local trends for Australia
+[2017-10-16_23-17-33] scrapethread 2: dumping json for Leicester
+[2017-10-16_23-17-33] scrapethread 1: dumping json for Austin
+[2017-10-16_23-17-33] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-33] scrapethread 5: cycling api and sleeping 10 secs
+[2017-10-16_23-17-33] scrapethread 2: dumping json for Liverpool
+[2017-10-16_23-17-33] scrapethread 1: dumping json for Baltimore
+[2017-10-16_23-17-33] scrapethread 2: dumping json for Manchester
+[2017-10-16_23-17-33] scrapethread 1: dumping json for Baton Rouge
+[2017-10-16_23-17-34] scrapethread 2: dumping json for Middlesbrough
+[2017-10-16_23-17-34] scrapethread 1: dumping json for Birmingham
+[2017-10-16_23-17-34] scrapethread 2: dumping json for Newcastle
+[2017-10-16_23-17-34] scrapethread 1: dumping json for Boston
+[2017-10-16_23-17-34] scrapethread 2: dumping json for Nottingham
+[2017-10-16_23-17-34] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-34] scrapethread 1: cycling api and sleeping 8 secs
+[2017-10-16_23-17-34] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-34] scrapethread 2: cycling api and sleeping 12 secs
+[2017-10-16_23-17-42] scrapethread 5: done
+[2017-10-16_23-17-42] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-42] scrapethread 5: cycling api and sleeping 16 secs
+[2017-10-16_23-17-43] scrapethread 1: dumping json for Chicago
+[2017-10-16_23-17-43] scrapethread 1: dumping json for Cincinnati
+[2017-10-16_23-17-43] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-43] scrapethread 5: cycling api and sleeping 12 secs
+[2017-10-16_23-17-43] scrapethread 1: dumping json for Cleveland
+[2017-10-16_23-17-43] scrapethread 1: dumping json for Colorado Springs
+[2017-10-16_23-17-44] launching scrapethead 4
+[2017-10-16_23-17-44] scrapethread 1: dumping json for Columbus
+[2017-10-16_23-17-44] scrapethread 1: dumping json for Dallas-Ft. Worth
+[2017-10-16_23-17-44] fetching global trend list
+[2017-10-16_23-17-44] scrapethread 1: dumping json for Denver
+[2017-10-16_23-17-45] scrapethread 1: dumping json for Detroit
+[2017-10-16_23-17-45] scrapethread 5: fetching local trends for Belgium
+[2017-10-16_23-17-45] scrapethread 1: dumping json for El Paso
+[2017-10-16_23-17-45] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-45] scrapethread 5: cycling api and sleeping 13 secs
+[2017-10-16_23-17-45] scrapethread 1: dumping json for Fresno
+[2017-10-16_23-17-45] scrapethread 1: dumping json for Greensboro
+[2017-10-16_23-17-46] scrapethread 1: dumping json for Harrisburg
+[2017-10-16_23-17-46] scrapethread 1: dumping json for Honolulu
+[2017-10-16_23-17-46] scrapethread 1: dumping json for Houston
+[2017-10-16_23-17-47] scrapethread 1: dumping json for Indianapolis
+[2017-10-16_23-17-47] scrapethread 2: dumping json for Portsmouth
+[2017-10-16_23-17-47] scrapethread 1: dumping json for Jackson
+[2017-10-16_23-17-47] scrapethread 2: dumping json for Preston
+[2017-10-16_23-17-47] scrapethread 1: dumping json for Jacksonville
+[2017-10-16_23-17-47] scrapethread 2: dumping json for Sheffield
+[2017-10-16_23-17-47] scrapethread 1: dumping json for Kansas City
+[2017-10-16_23-17-48] scrapethread 2: dumping json for Stoke-on-Trent
+[2017-10-16_23-17-48] scrapethread 1: dumping json for Las Vegas
+[2017-10-16_23-17-48] scrapethread 2: dumping json for Swansea
+[2017-10-16_23-17-48] scrapethread 1: dumping json for Long Beach
+[2017-10-16_23-17-48] scrapethread 2: dumping json for London
+[2017-10-16_23-17-48] scrapethread 1: dumping json for Los Angeles
+[2017-10-16_23-17-48] scrapethread 2: dumping json for Belfast
+[2017-10-16_23-17-48] scrapethread 1: dumping json for Louisville
+[2017-10-16_23-17-49] scrapethread 2: dumping json for United Kingdom
+[2017-10-16_23-17-49] scrapethread 2: done
+[2017-10-16_23-17-49] scrapethread 1: dumping json for Memphis
+[2017-10-16_23-17-49] scrapethread 1: dumping json for Mesa
+[2017-10-16_23-17-49] scrapethread 1: dumping json for Miami
+[2017-10-16_23-17-50] scrapethread 1: dumping json for Milwaukee
+[2017-10-16_23-17-50] launching scrapethead 4
+[2017-10-16_23-17-50] scrapethread 1: dumping json for Minneapolis
+[2017-10-16_23-17-50] scrapethread 1: dumping json for Nashville
+[2017-10-16_23-17-50] fetching global trend list
+[2017-10-16_23-17-50] scrapethread 1: dumping json for New Haven
+[2017-10-16_23-17-51] scrapethread 5: fetching local trends for Malaysia
+[2017-10-16_23-17-51] scrapethread 1: dumping json for New Orleans
+[2017-10-16_23-17-51] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-51] scrapethread 5: cycling api and sleeping 15 secs
+[2017-10-16_23-17-51] scrapethread 1: dumping json for New York
+[2017-10-16_23-17-51] scrapethread 1: dumping json for Norfolk
+[2017-10-16_23-17-52] scrapethread 1: dumping json for Oklahoma City
+[2017-10-16_23-17-52] scrapethread 1: dumping json for Omaha
+[2017-10-16_23-17-52] scrapethread 1: dumping json for Orlando
+[2017-10-16_23-17-52] scrapethread 1: dumping json for Philadelphia
+[2017-10-16_23-17-53] scrapethread 1: dumping json for Phoenix
+[2017-10-16_23-17-53] scrapethread 1: dumping json for Pittsburgh
+[2017-10-16_23-17-53] scrapethread 1: dumping json for Portland
+[2017-10-16_23-17-54] scrapethread 1: dumping json for Providence
+[2017-10-16_23-17-54] scrapethread 1: dumping json for Raleigh
+[2017-10-16_23-17-54] scrapethread 1: dumping json for Richmond
+[2017-10-16_23-17-55] scrapethread 1: dumping json for Sacramento
+[2017-10-16_23-17-55] scrapethread 1: dumping json for St. Louis
+[2017-10-16_23-17-55] scrapethread 1: dumping json for Salt Lake City
+[2017-10-16_23-17-55] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-17-55] scrapethread 5: cycling api and sleeping 16 secs
+[2017-10-16_23-17-56] scrapethread 1: dumping json for San Antonio
+[2017-10-16_23-17-56] scrapethread 1: dumping json for San Diego
+[2017-10-16_23-17-56] scrapethread 1: dumping json for San Francisco
+[2017-10-16_23-17-56] scrapethread 1: dumping json for San Jose
+[2017-10-16_23-17-57] scrapethread 1: dumping json for Seattle
+[2017-10-16_23-17-57] scrapethread 1: dumping json for Tallahassee
+[2017-10-16_23-17-57] scrapethread 1: dumping json for Tampa
+[2017-10-16_23-17-58] scrapethread 1: dumping json for Tucson
+[2017-10-16_23-17-58] scrapethread 1: dumping json for Virginia Beach
+[2017-10-16_23-17-58] scrapethread 5: done
+[2017-10-16_23-17-58] scrapethread 1: dumping json for Washington
+[2017-10-16_23-17-58] scrapethread 1: dumping json for United States
+[2017-10-16_23-17-58] scrapethread 1: done
+[2017-10-16_23-17-59] scrapethread 5: dumping json for Utrecht
+[2017-10-16_23-17-59] scrapethread 5: dumping json for Netherlands
+[2017-10-16_23-17-59] scrapethread 5: done
+[2017-10-16_23-18-00] launching scrapethead 2
+[2017-10-16_23-18-00] launching scrapethead 3
+[2017-10-16_23-18-00] threadscraping joining threads
+[2017-10-16_23-18-00] fetching global trend list
+[2017-10-16_23-18-00] fetching global trend list
+[2017-10-16_23-18-01] scrapethread 3: fetching local trends for Singapore
+[2017-10-16_23-18-01] scrapethread 5: fetching local trends for New Zealand
+[2017-10-16_23-18-01] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-01] scrapethread 5: cycling api and sleeping 15 secs
+[2017-10-16_23-18-01] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-01] scrapethread 3: cycling api and sleeping 12 secs
+[2017-10-16_23-18-06] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-06] scrapethread 5: cycling api and sleeping 16 secs
+[2017-10-16_23-18-12] scrapethread 5: dumping json for Canberra
+[2017-10-16_23-18-12] scrapethread 5: dumping json for Darwin
+[2017-10-16_23-18-12] scrapethread 5: dumping json for Melbourne
+[2017-10-16_23-18-13] scrapethread 5: dumping json for Sydney
+[2017-10-16_23-18-13] scrapethread 5: dumping json for Australia
+[2017-10-16_23-18-13] scrapethread 5: done
+[2017-10-16_23-18-13] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-13] scrapethread 3: cycling api and sleeping 14 secs
+[2017-10-16_23-18-16] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-16] scrapethread 5: cycling api and sleeping 15 secs
+[2017-10-16_23-18-22] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-22] scrapethread 5: cycling api and sleeping 13 secs
+[2017-10-16_23-18-27] scrapethread 3: done
+[2017-10-16_23-18-31] scrapethread 5: done
+[2017-10-16_23-18-36] scrapethread 5: dumping json for Klang
+[2017-10-16_23-18-36] scrapethread 5: dumping json for Kuala Lumpur
+[2017-10-16_23-18-36] scrapethread 5: dumping json for Malaysia
+[2017-10-16_23-18-37] scrapethread 5: dumping json for Petaling
+[2017-10-16_23-18-37] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-10-16_23-18-37] scrapethread 5: cycling api and sleeping 8 secs
+[2017-10-16_23-18-45] scrapethread 5: done
+[2017-10-16_23-18-45] threads joined
+[2017-10-16_23-18-45] sleeping for 3501 seconds until next trendscrape
