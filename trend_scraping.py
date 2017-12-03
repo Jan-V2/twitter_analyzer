@@ -4,12 +4,12 @@ import shutil
 import time
 from pprint import pprint
 from zipfile import ZipFile
-
+import threading
 import simplejson
 import tweepy
-
-from main import api_array, ROOTDIR, dir_sep
-from utils import count_active_threads, log, get_timestamp, get_subdir_list
+from twitter_api_keys import get_api_array
+from main import ROOTDIR, dir_sep
+from utils import count_active_threads, log, get_timestamp, get_subdir_list, handle_ratelimit
 from twitter_api_keys import apis as getapi
 import tarfile
 
@@ -20,26 +20,21 @@ import tarfile
 # i think it's probably related to api cycling
 # todo add some sort of code that spreads the load evenly  across several apis
 def run_trendscrape(scraping_list, test):
-    wait_in_secs = 0
-    iters_per_compress = 0
-    trend_data_dir = dir_sep + 'scraped trends'# the subdir where scraped trenddata is stored
-    #compress_trend_data(trend_data_dir)
     if test:
-        wait_in_secs = 15
-        iters_per_compress = 2
+        scrapes_per_compress = 2
     else:
-        wait_in_secs = 3600
-        iters_per_compress = 24
+        scrapes_per_compress = 24
 
-    iters = 0
-    while True:
-        # has to be refreshed every ineration otherwise it overwrites itself
-        dump_dir = ROOTDIR + trend_data_dir + dir_sep + get_timestamp()
+    trend_data_dir = dir_sep + 'scraped trends'# the subdir where scraped trenddata is stored
+    uncompressed_scrapes = len(get_subdir_list(ROOTDIR + dir_sep + 'scraped trends'))
+    #compress_trend_data(trend_data_dir)
 
-        trendscrapingloop(dump_dir, scraping_list, wait_in_secs)
-        iters +=1
-    #     if iters % iters_per_compress == 0:
-    #         compress_trend_data(trend_data_dir)
+    dump_dir = ROOTDIR + trend_data_dir + dir_sep + get_timestamp()
+
+    scrape_trends(dump_dir, scraping_list)
+    uncompressed_scrapes += 1
+    if uncompressed_scrapes % scrapes_per_compress == 0 and uncompressed_scrapes > 0:
+        compress_trend_data(trend_data_dir)
 
 
 def compress_trend_data(trend_data_dir):
@@ -51,8 +46,12 @@ def compress_trend_data(trend_data_dir):
     # puts the number of dirs in the archive + timestamp in the filename
     arch_name = str(len(subdirs)) + " dirs " + get_timestamp() + ".tar.gz"
 
+    path_for_archs = ROOTDIR + dir_sep + "compressed" + dir_sep
+    if not os.path.exists(path_for_archs):
+        os.makedirs(path_for_archs)
+
     # combines all the dirs into a zip and then compresses it into a tar.gz
-    arch = tarfile.open(ROOTDIR + dir_sep + trend_data_dir + dir_sep + arch_name, "w:gz")
+    arch = tarfile.open(path_for_archs + arch_name, "w:gz")
     arch.add(ROOTDIR + dir_sep + trend_data_dir + dir_sep, arcname=arch_name)
     arch.close()
 
@@ -60,121 +59,115 @@ def compress_trend_data(trend_data_dir):
 
     # todo verifies the archive? (maybe by uncompressing it)
     # deletes the old data folders
-    #for folder in subdirs:
-    #    shutil.rmtree(ROOTDIR + dir_sep + trend_data_dir + dir_sep + folder)
+    for folder in subdirs:
+        shutil.rmtree(ROOTDIR + dir_sep + trend_data_dir + dir_sep + folder)
 
     log("deleted old folders")
 
 
+def get_thread_country_lists(max_threads, scraping_list):
+    thread_country_lists = []
+    ids_per_thread_list = []
+    for i in range(max_threads):
+        thread_country_lists.append([])
+        ids_per_thread_list.append(0)
 
-def trendscrapingloop(trend_data_dump_dir, scraping_list, wait_in_secs):
+    ids_per_country = get_ids_per_country()
+
+    for item in ids_per_country:
+        if item[0] in scraping_list:
+            shortest_list_idx = 0
+            for j in range(len(thread_country_lists)):
+                if ids_per_thread_list[j] < ids_per_thread_list[shortest_list_idx]:
+                    shortest_list_idx = j
+            thread_country_lists[shortest_list_idx].append(item[0])
+            ids_per_thread_list[shortest_list_idx] += item[1]
+    return thread_country_lists
+
+
+def scrape_trends(trend_data_dump_dir, scraping_list):
     # the main scraping mehthod
     # this will scrape the country names that are given in the argument
-        # the next scrape starts an hour after the last scrape started
-        nextscrape = int(time.time()) + wait_in_secs
-        max_theads = 5
+    # the next scrape starts an hour after the last scrape started
 
-        threadlist = []
-        for country in scraping_list:
-            active_threads = count_active_threads(threadlist)
-            thread = multiprocessing.Process(target=download_and_save_trends,
-                                             args=(country, trend_data_dump_dir, active_threads))
-            # launches the scraping threads
-            while True:
-                if active_threads < max_theads:
-                    log('launching scrapethead ' + str(active_threads))
-                    threadlist.append(thread)
-                    thread.start()
-                    break
-                else:
-                    time.sleep(2)
-                    active_threads = count_active_threads(threadlist)
+    # todo this whole idea is stupid, is should just use the country balacing idea i had
+    # what i was doing before
+    # make it so that it gets a list of woeids and splits it among a bunch of scrape threads
+    # first make the dir the woeid should go into then
+    apis = get_api_array()
+    threads = len(apis)
 
-        # joins scraping threads and sleeps this thread
-        log('threadscraping joining threads')
-        for t in threadlist:
-            t.join()
-        log("threads joined")
-        sleeptime = nextscrape - int(time.time())
-        log('sleeping for ' + str(sleeptime) + ' seconds until next trendscrape')
-        time.sleep(sleeptime)
+    country_lists_per_thread = get_thread_country_lists(threads, scraping_list)
+    threadlist = []
+    for i in range(threads):
+        thread = threading.Thread(target=download_and_save_trends,
+                                         args=(country_lists_per_thread[i], trend_data_dump_dir, i, apis[i]))
+        log('launching scrapethead ' + str(i))
+        threadlist.append(thread)
+        thread.start()
 
 
-def download_and_save_trends(country_name, dump_dir, thread_id):
+    # joins scraping threads and sleeps this thread
+    log('threadscraping joining threads')
+    for t in threadlist:
+        t.join()
+    log("threads joined")
+    log("trendscrape done")
+
+
+def download_and_save_trends(country_names, dump_dir, thread_id, api):
     # passing in '' will save golbal trends
-
     thread_name = 'scrapethread '+ str(thread_id) + ': '
-    apis = getapi(thread_name)
 
     log('fetching global trend list')
-    available_trends = apis.get_api().trends_available()
+    available_trends = api.trends_available()
     # pprint(available_trends)
 
-    country_trend_ids = []
+    for country_name in country_names:
+        country_trend_ids = []
 
-    for item in available_trends:
-        if item['country'] == country_name:
-            country_trend_ids.append(item)
+        for item in available_trends:
+            if item['country'] == country_name:
+                country_trend_ids.append(item)
 
+        if country_name != '':
+            # creates a country directory if it doesn't already exist
+            country_dir = dump_dir + dir_sep + country_name
+            if not os.path.exists(country_dir):
+                os.makedirs(country_dir)
+            log(thread_name + 'fetching local trends for ' + country_name)
+        else:
+            country_dir = dump_dir + dir_sep + 'Worldwide'
+            if not os.path.exists(country_dir):
+                os.makedirs(country_dir)
+            log(thread_name + 'fetching local trends for Worldwide')
 
+        # dumps each areacode into a seperate json file
+        for item in country_trend_ids:
+            # pprint(item)
+            while True:
+                try:
+                    # fetches data for each area code
+                    local_trend_json = api.trends_place(item['woeid'])
+                    local_trend_json = local_trend_json[0]
 
-    if country_name != '':
-        # creates a country directory if it doesn't already exist
-        country_dir = dump_dir + dir_sep + country_name
-        if not os.path.exists(country_dir):
-            os.makedirs(country_dir)
-        log(thread_name + 'fetching local trends for ' + country_name)
-    else:
-        country_dir = dump_dir + dir_sep + 'Worldwide'
-        if not os.path.exists(country_dir):
-            os.makedirs(country_dir)
-        log(thread_name + 'fetching local trends for Worldwide')
+                    # dumps each areacode into a seperate json file
+                    with open(country_dir + dir_sep + local_trend_json['locations'][0]['name'] + '.json', 'w') as outfile:
+                        # you need to use simplejson to make it look nice
+                        log(thread_name + 'dumping json for ' + local_trend_json['locations'][0]['name'])
+                        simplejson.dump(local_trend_json, outfile, indent=4, sort_keys=True)
 
-    # dumps each areacode into a seperate json file
-    for item in country_trend_ids:
-        # pprint(item)
-        while True:
-            try:
-                # fetches data for each area code
-                local_trend_json = apis.get_api().trends_place(item['woeid'])
-                local_trend_json = local_trend_json[0]
+                except Exception as e:
+                    log(str(e))
+                    handle_ratelimit(thread_name)
 
-                # dumps each areacode into a seperate json file
-                with open(country_dir + dir_sep + local_trend_json['locations'][0]['name'] + '.json', 'w') as outfile:
-                    # you need to use simplejson to make it look nice
-                    log(thread_name + 'dumping json for ' + local_trend_json['locations'][0]['name'])
-                    simplejson.dump(local_trend_json, outfile, indent=4, sort_keys=True)
+                break
+            time.sleep(1)
+        log(thread_name + " scraped " + country_name)
 
-            except Exception as e:
-                apis.cycle_and_wait(e)
+    log(thread_name + " done")
 
-            break
-    log(thread_name + "done")
-
-
-def get_country_trends_ids():
-    pass
-
-# depricated
-api = api_array[0]# for depricated methods
-def print_ids_per_country():
-    country_list = get_country_list()
-    available_trends = api.trends_available()
-    country_trendid_no = []
-
-    for country in country_list:
-        country_trendid_no.append(trendids_per_country(country, available_trends))
-
-    country_trendid_no = sorted(country_trendid_no, key=lambda country: country[1], reverse=True)
-    pprint(country_trendid_no)
-
-def trendids_per_country(country_name, available_trends):
-    country_trend_ids = []
-    for item in available_trends:
-        if item['country'] == country_name:
-            country_trend_ids.append(item)
-
-    return [country_name ,len(country_trend_ids)]
+api = get_api_array()[0]# for depricated methods
 
 def get_country_list():
     trendlist = api.trends_available()
@@ -185,6 +178,29 @@ def get_country_list():
         if item['country'] not in country_name_list:
             country_name_list.append(item['country'])
     return country_name_list
+
+def get_ids_per_country():
+    country_list = get_country_list()
+    available_trends = api.trends_available()
+    country_trendid_no = []
+
+    for country in country_list:
+        country_trendid_no.append(trendids_per_country(country, available_trends))
+
+    country_trendid_no = sorted(country_trendid_no, key=lambda country: country[1], reverse=True)
+    return country_trendid_no
+
+
+# depricated
+
+def trendids_per_country(country_name, available_trends):
+    country_trend_ids = []
+    for item in available_trends:
+        if item['country'] == country_name:
+            country_trend_ids.append(item)
+
+    return [country_name ,len(country_trend_ids)]
+
 
 def get_highest_tending(trends_json):
     # takes json objects produced by the api.trends_place or api.trends_closest

@@ -17,7 +17,7 @@ import pprint
 import time
 import multiprocessing
 import threading
-from main import ROOTDIR, dir_sep
+from main import ROOTDIR, dir_sep as dirsep
 from utils import handle_ratelimit, escape_string, log
 import csv
 

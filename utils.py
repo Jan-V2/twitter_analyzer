@@ -3,7 +3,10 @@ import time
 import os
 import tweepy
 
-from main import ROOTDIR, api_array
+from main import ROOTDIR
+from twitter_api_keys import get_api_array
+
+api_array = get_api_array()
 
 
 def limit_handler(cursor):
