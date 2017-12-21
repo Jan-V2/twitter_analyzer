@@ -3,7 +3,7 @@ import time
 import os
 import tweepy
 
-from main import ROOTDIR
+from main import ROOTDIR, dir_sep
 from twitter_api_keys import get_api_array
 
 api_array = get_api_array()
@@ -23,7 +23,6 @@ def get_subdir_list(dir):
     # (so only the dirs in the rootdir)
     for root, dirs, files in os.walk(dir, topdown=True):
         return dirs
-
 
 def handle_ratelimit(thread_name):
     # only seems to work once you have hit the limit
@@ -53,7 +52,7 @@ def log(logline):
     timestamp = get_timestamp()
     logline = timestamp + " " + logline
     print(logline)
-    with open(ROOTDIR + '\\' + "log.txt",mode='a') as logfile:
+    with open(ROOTDIR + dir_sep + "log.txt",mode='a') as logfile:
         logfile.write(logline + '\n')
 
 

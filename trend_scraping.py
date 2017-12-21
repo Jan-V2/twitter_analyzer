@@ -26,7 +26,10 @@ def run_trendscrape(scraping_list, test):
         scrapes_per_compress = 24
 
     trend_data_dir = dir_sep + 'scraped trends'# the subdir where scraped trenddata is stored
-    uncompressed_scrapes = len(get_subdir_list(ROOTDIR + dir_sep + 'scraped trends'))
+    try:
+        uncompressed_scrapes = len(get_subdir_list(ROOTDIR + dir_sep + 'scraped trends'))
+    except TypeError:
+        uncompressed_scrapes = 0
     #compress_trend_data(trend_data_dir)
 
     dump_dir = ROOTDIR + trend_data_dir + dir_sep + get_timestamp()
@@ -58,6 +61,7 @@ def compress_trend_data(trend_data_dir):
     log("compressed dirs into " + arch_name)
 
     # todo verifies the archive? (maybe by uncompressing it)
+	
     # deletes the old data folders
     for folder in subdirs:
         shutil.rmtree(ROOTDIR + dir_sep + trend_data_dir + dir_sep + folder)
