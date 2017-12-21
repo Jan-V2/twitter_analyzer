@@ -5,15 +5,18 @@ import os
 from pprint import pprint
 
 
-def do_trendscrape():
+def do_trendscrape(is_test):
     from trend_scraping import run_trendscrape
     # this list is just under 150 trends, so it can be downloaded in 2 15 min api cycles.
     #  '' is for the worldwide trends
-    trend_scraping_list = ['', 'United States', 'United Kingdom', 'Germany', 'Canada',
+
+    if is_test:
+        trend_scraping_list = ['Netherlands', 'Puerto Rico']
+    else:
+        trend_scraping_list = ['', 'United States', 'United Kingdom', 'Germany', 'Canada',
                            'Netherlands', 'Puerto Rico', 'Australia', 'Belgium', 'Malaysia', 'New Zealand', 'Singapore']
-    #trend_scraping_list = ['Netherlands', 'Puerto Rico']
-    test = False
-    run_trendscrape(trend_scraping_list, test)
+
+    run_trendscrape(trend_scraping_list, is_test)
 
 def init_platform_vars():
     from sys import platform as _platform
@@ -43,19 +46,7 @@ if __name__ == '__main__':
     from search_scraper import test as search_scrape_test
     log_return()
     log('starting application')
-    do_trendscrape()
+    do_trendscrape(False)
     #from trend_scraping import get_thread_country_lists
-    #pprint(get_thread_country_lists(3, ['', 'United States', 'United Kingdom', 'Germany', 'Canada',
-    #                                    'Netherlands', 'Puerto Rico', 'Australia', 'Belgium', 'Malaysia', 'New Zealand', 'Singapore']))
-
-
-
-    #pprint(api_array[0].trends_available())
-
-    #search_scrape_test(api_array[1])
-    #do_trendscrape()
-    #pprint(api.trends_available())
-    #pprint(api.trends_place(1))
-
 
     log("closing application")

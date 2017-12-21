@@ -2,6 +2,7 @@ import multiprocessing
 import os
 import shutil
 import time
+import zipfile
 from pprint import pprint
 from zipfile import ZipFile
 import threading
@@ -19,8 +20,8 @@ import tarfile
 # todo for some reason it doesn't download all the files.
 # i think it's probably related to api cycling
 # todo add some sort of code that spreads the load evenly  across several apis
-def run_trendscrape(scraping_list, test):
-    if test:
+def run_trendscrape(scraping_list, is_test):
+    if is_test:
         scrapes_per_compress = 2
     else:
         scrapes_per_compress = 24
@@ -37,34 +38,49 @@ def run_trendscrape(scraping_list, test):
     scrape_trends(dump_dir, scraping_list)
     uncompressed_scrapes += 1
     if uncompressed_scrapes % scrapes_per_compress == 0 and uncompressed_scrapes > 0:
-        compress_trend_data(trend_data_dir)
+        compress_trend_data(trend_data_dir, is_test)
 
 
-def compress_trend_data(trend_data_dir):
+def make_zipfile(output_filename, source_dir):
+    relroot = os.path.abspath(os.path.join(source_dir, os.pardir))
+    with zipfile.ZipFile(output_filename, "w", zipfile.ZIP_DEFLATED) as zip:
+        for root, dirs, files in os.walk(source_dir):
+            # add directory (needed for empty dirs)
+            zip.write(root, os.path.relpath(root, relroot))
+            for file in files:
+                filename = os.path.join(root, file)
+                if os.path.isfile(filename): # regular files only
+                    arcname = os.path.join(os.path.relpath(root, relroot), file)
+                    zip.write(filename, arcname)
+
+
+def compress_trend_data(trend_data_dir, is_test):
     log("compressing ")
 
     # gets a list of subdirs of the folder
     subdirs = get_subdir_list(ROOTDIR + dir_sep + trend_data_dir)
 
     # puts the number of dirs in the archive + timestamp in the filename
-    arch_name = str(len(subdirs)) + " dirs " + get_timestamp() + ".tar.gz"
+    arch_name = str(len(subdirs)) + " dirs " + get_timestamp()
 
-    path_for_archs = ROOTDIR + dir_sep + "compressed" + dir_sep
-    if not os.path.exists(path_for_archs):
-        os.makedirs(path_for_archs)
+    arch_folder = ROOTDIR + dir_sep + "compressed" + dir_sep
+    if not os.path.exists(arch_folder):
+        os.makedirs(arch_folder)
 
-    # combines all the dirs into a zip and then compresses it into a tar.gz
-    arch = tarfile.open(path_for_archs + arch_name, "w:gz")
-    arch.add(ROOTDIR + dir_sep + trend_data_dir + dir_sep, arcname=arch_name)
-    arch.close()
+    arch_path = arch_folder + arch_name
+
+    # combines all the dirs into a zip and then compresses it into a zip
+    make_zipfile(arch_path, ROOTDIR + dir_sep + trend_data_dir + dir_sep)
+    os.rename(arch_path, arch_path + '.zip')
 
     log("compressed dirs into " + arch_name)
 
     # todo verifies the archive? (maybe by uncompressing it)
 	
     # deletes the old data folders
-    for folder in subdirs:
-        shutil.rmtree(ROOTDIR + dir_sep + trend_data_dir + dir_sep + folder)
+    if not is_test:
+        for folder in subdirs:
+            shutil.rmtree(ROOTDIR + dir_sep + trend_data_dir + dir_sep + folder)
 
     log("deleted old folders")
 

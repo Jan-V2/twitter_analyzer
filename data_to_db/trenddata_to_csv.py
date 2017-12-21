@@ -66,6 +66,7 @@ class Csvs_Twitter_Trend_Data:
 
     country_abr_list = []
 
+
     def __init__(self,json_files):
         log('creating csvs')
         # global csv
@@ -102,8 +103,6 @@ class Csvs_Twitter_Trend_Data:
         self.country_csvs = tuple(country_csvs)
         self.region_csvs = tuple(region_csvs)
 
-
-
     def create_global_and_country_tables(self, json_files):
         log('building global+country tables')
         global_table_list = []
@@ -127,8 +126,6 @@ class Csvs_Twitter_Trend_Data:
             self.country_csvs[country_names.index(item[1])][1].data.append(item[0])
 
         self.global_csv.data = global_table_list
-
-
 
     def create_region_tables(self, json_files):
         log('building region tables')

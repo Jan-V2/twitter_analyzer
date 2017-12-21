@@ -1098,3 +1098,168 @@
 [2017-12-03_14-09-14] threads joined
 [2017-12-03_14-09-14] trendscrape done
 [2017-12-03_14-09-14] closing application
+
+[2017-12-21_20-04-20] starting application
+[2017-12-21_20-04-21] launching scrapethead 0
+[2017-12-21_20-04-21] fetching global trend list
+[2017-12-21_20-04-21] launching scrapethead 1
+[2017-12-21_20-04-21] launching scrapethead 2
+[2017-12-21_20-04-21] fetching global trend list
+[2017-12-21_20-04-21] launching scrapethead 3
+[2017-12-21_20-04-21] fetching global trend list
+[2017-12-21_20-04-21] fetching global trend list
+[2017-12-21_20-04-21] threadscraping joining threads
+[2017-12-21_20-04-21] scrapethread 0: fetching local trends for Netherlands
+[2017-12-21_20-04-21] scrapethread 1: fetching local trends for Puerto Rico
+[2017-12-21_20-04-21] scrapethread 2:  done
+[2017-12-21_20-04-22] scrapethread 3:  done
+[2017-12-21_20-04-22] scrapethread 0: dumping json for Den Haag
+[2017-12-21_20-04-22] scrapethread 1: dumping json for Puerto Rico
+[2017-12-21_20-04-23] scrapethread 1:  scraped Puerto Rico
+[2017-12-21_20-04-23] scrapethread 1:  done
+[2017-12-21_20-04-23] scrapethread 0: dumping json for Amsterdam
+[2017-12-21_20-04-25] scrapethread 0: dumping json for Rotterdam
+[2017-12-21_20-04-26] scrapethread 0: dumping json for Utrecht
+[2017-12-21_20-04-27] scrapethread 0: dumping json for Netherlands
+[2017-12-21_20-04-28] scrapethread 0:  scraped Netherlands
+[2017-12-21_20-04-28] scrapethread 0:  done
+[2017-12-21_20-04-28] threads joined
+[2017-12-21_20-04-28] trendscrape done
+[2017-12-21_20-04-28] compressing 
+[2017-12-21_20-04-30] compressed dirs into 6 dirs [2017-12-21_20-04-28]
+[2017-12-21_20-04-30] deleted old folders
+[2017-12-21_20-04-30] closing application
+
+[2017-12-21_20-07-04] starting application
+[2017-12-21_20-07-05] launching scrapethead 0
+[2017-12-21_20-07-05] fetching global trend list
+[2017-12-21_20-07-05] launching scrapethead 1
+[2017-12-21_20-07-05] fetching global trend list
+[2017-12-21_20-07-05] launching scrapethead 2
+[2017-12-21_20-07-05] fetching global trend list
+[2017-12-21_20-07-05] launching scrapethead 3
+[2017-12-21_20-07-05] threadscraping joining threads
+[2017-12-21_20-07-05] fetching global trend list
+[2017-12-21_20-07-05] scrapethread 1: fetching local trends for Puerto Rico
+[2017-12-21_20-07-05] scrapethread 2:  done
+[2017-12-21_20-07-05] scrapethread 0: fetching local trends for Netherlands
+[2017-12-21_20-07-05] scrapethread 3:  done
+[2017-12-21_20-07-05] scrapethread 1: dumping json for Puerto Rico
+[2017-12-21_20-07-05] scrapethread 0: dumping json for Den Haag
+[2017-12-21_20-07-06] scrapethread 1:  scraped Puerto Rico
+[2017-12-21_20-07-06] scrapethread 1:  done
+[2017-12-21_20-07-07] scrapethread 0: dumping json for Amsterdam
+[2017-12-21_20-07-08] scrapethread 0: dumping json for Rotterdam
+[2017-12-21_20-07-09] scrapethread 0: dumping json for Utrecht
+[2017-12-21_20-07-11] scrapethread 0: dumping json for Netherlands
+[2017-12-21_20-07-12] scrapethread 0:  scraped Netherlands
+[2017-12-21_20-07-12] scrapethread 0:  done
+[2017-12-21_20-07-12] threads joined
+[2017-12-21_20-07-12] trendscrape done
+[2017-12-21_20-07-12] closing application
+
+[2017-12-21_20-07-20] starting application
+[2017-12-21_20-07-20] launching scrapethead 0
+[2017-12-21_20-07-20] fetching global trend list
+[2017-12-21_20-07-20] launching scrapethead 1
+[2017-12-21_20-07-20] fetching global trend list
+[2017-12-21_20-07-20] launching scrapethead 2
+[2017-12-21_20-07-20] launching scrapethead 3
+[2017-12-21_20-07-20] fetching global trend list
+[2017-12-21_20-07-20] fetching global trend list
+[2017-12-21_20-07-20] threadscraping joining threads
+[2017-12-21_20-07-21] scrapethread 3:  done
+[2017-12-21_20-07-21] scrapethread 2:  done
+[2017-12-21_20-07-21] scrapethread 1: fetching local trends for Puerto Rico
+[2017-12-21_20-07-21] scrapethread 0: fetching local trends for Netherlands
+[2017-12-21_20-07-21] scrapethread 0: dumping json for Den Haag
+[2017-12-21_20-07-21] scrapethread 1: dumping json for Puerto Rico
+[2017-12-21_20-07-22] scrapethread 1:  scraped Puerto Rico
+[2017-12-21_20-07-22] scrapethread 1:  done
+[2017-12-21_20-07-23] [{'message': 'Rate limit exceeded', 'code': 88}]
+[2017-12-21_20-07-23] scrapethread 0: handiling ratlimit, waitng 459 seconds
+
+[2017-12-21_20-08-27] starting application
+[2017-12-21_20-08-27] closing application
+
+[2017-12-21_20-08-42] starting application
+[2017-12-21_20-08-42] closing application
+
+[2017-12-21_20-09-22] starting application
+[2017-12-21_20-09-22] compressing 
+
+[2017-12-21_20-11-48] starting application
+[2017-12-21_20-11-48] compressing 
+[2017-12-21_20-11-48] compressed dirs into 9 dirs [2017-12-21_20-11-48]
+[2017-12-21_20-11-48] deleted old folders
+[2017-12-21_20-11-48] closing application
+
+[2017-12-21_20-13-05] starting application
+[2017-12-21_20-13-05] compressing 
+[2017-12-21_20-13-06] compressed dirs into 9 dirs [2017-12-21_20-13-05]
+[2017-12-21_20-13-06] deleted old folders
+[2017-12-21_20-13-06] closing application
+
+[2017-12-21_20-15-52] starting application
+[2017-12-21_20-15-52] compressing 
+
+[2017-12-21_20-16-22] starting application
+[2017-12-21_20-16-22] compressing 
+
+[2017-12-21_20-16-43] starting application
+[2017-12-21_20-16-43] compressing 
+
+[2017-12-21_20-18-03] starting application
+[2017-12-21_20-18-03] compressing 
+
+[2017-12-21_20-19-04] starting application
+[2017-12-21_20-19-04] compressing 
+[2017-12-21_20-19-04] compressed dirs into 9 dirs [2017-12-21_20-19-04]
+[2017-12-21_20-19-04] deleted old folders
+[2017-12-21_20-19-04] closing application
+
+[2017-12-21_20-20-27] starting application
+[2017-12-21_20-20-27] compressing 
+
+[2017-12-21_20-21-29] starting application
+[2017-12-21_20-21-29] compressing 
+[2017-12-21_20-21-29] compressed dirs into 9 dirs [2017-12-21_20-21-29]
+[2017-12-21_20-21-29] deleted old folders
+[2017-12-21_20-21-29] closing application
+
+[2017-12-21_20-23-50] starting application
+[2017-12-21_20-23-50] compressing 
+[2017-12-21_20-23-51] compressed dirs into 9 dirs [2017-12-21_20-23-50]
+[2017-12-21_20-23-51] deleted old folders
+[2017-12-21_20-23-51] closing application
+
+[2017-12-21_20-25-30] starting application
+[2017-12-21_20-25-30] compressing 
+[2017-12-21_20-25-31] compressed dirs into 9 dirs [2017-12-21_20-25-30]
+[2017-12-21_20-25-31] deleted old folders
+[2017-12-21_20-25-31] closing application
+
+[2017-12-21_20-27-27] starting application
+[2017-12-21_20-27-27] compressing 
+[2017-12-21_20-27-27] compressed dirs into 9 dirs [2017-12-21_20-27-27]
+[2017-12-21_20-27-27] deleted old folders
+[2017-12-21_20-27-27] closing application
+
+[2017-12-21_20-31-23] starting application
+[2017-12-21_20-31-24] launching scrapethead 0
+[2017-12-21_20-31-24] fetching global trend list
+[2017-12-21_20-31-24] launching scrapethead 1
+[2017-12-21_20-31-24] fetching global trend list
+[2017-12-21_20-31-24] launching scrapethead 2
+[2017-12-21_20-31-24] fetching global trend list
+[2017-12-21_20-31-24] launching scrapethead 3
+[2017-12-21_20-31-24] fetching global trend list
+[2017-12-21_20-31-24] threadscraping joining threads
+[2017-12-21_20-31-25] scrapethread 1: fetching local trends for United Kingdom
+[2017-12-21_20-31-25] scrapethread 3: fetching local trends for Canada
+[2017-12-21_20-31-25] scrapethread 0: fetching local trends for United States
+[2017-12-21_20-31-25] scrapethread 2: fetching local trends for Germany
+[2017-12-21_20-31-25] scrapethread 1: dumping json for Birmingham
+[2017-12-21_20-31-25] scrapethread 3: dumping json for Winnipeg
+[2017-12-21_20-31-25] scrapethread 0: dumping json for Albuquerque
+[2017-12-21_20-31-25] scrapethread 2: dumping json for Berlin
